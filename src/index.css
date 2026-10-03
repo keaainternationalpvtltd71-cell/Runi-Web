@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  /* Side gutter grows with the viewport instead of sitting at a fixed 20/32px, so the
+     header logo and the quote button breathe on a wide screen. */
+  --gutter: clamp(20px, 4vw, 72px);
+  --w-content: 1760px;
+}
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-steel-800 antialiased font-sans; }
+h1, h2, h3, h4 { @apply text-steel-900 tracking-tight; }
+.wrap { @apply mx-auto w-full; max-width: var(--w-content); padding-inline: var(--gutter); }
+/* Edge to edge bars (header, footer): gutter only, no centring measure. */
+.wrap-full { @apply w-full; padding-inline: var(--gutter); }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-card px-5 py-3 text-sm font-semibold transition-transform duration-200 will-change-transform focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+.btn-primary { @apply btn bg-brand text-white hover:bg-brand-dark hover:-translate-y-0.5; }
+.btn-ghost { @apply btn border border-steel-300 text-steel-900 hover:border-brand hover:text-brand; }
+.btn-light { @apply btn bg-white text-brand-deep hover:bg-steel-100; }
+.eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-brand; }
+.section { @apply py-16 sm:py-24; }
+.rule { @apply h-px w-16 bg-brand; }
+.card-border { @apply border border-steel-200 hover:border-brand transition-colors; }
+.skeleton { @apply animate-pulse bg-steel-100; }
+.prose-block p { @apply mb-4 text-[17px] leading-relaxed text-steel-800; }
+/* Hero headline rotation: the outgoing phrase leaves before the incoming one arrives, so the
+   two never overlap. Keyframes rather than transitions, because an animation runs on mount. */
+@keyframes phraseIn  { from { opacity: 0; transform: translateY(0.45em); } to { opacity: 1; transform: translateY(0); } }
+@keyframes phraseOut { from { opacity: 1; transform: translateY(0); }     to { opacity: 0; transform: translateY(-0.45em); } }
+.phrase-in  { animation: phraseIn 460ms cubic-bezier(0.22, 0.61, 0.36, 1) both; }
+.phrase-out { animation: phraseOut 300ms cubic-bezier(0.55, 0.06, 0.68, 0.19) both; }
+@keyframes phraseFadeIn  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes phraseFadeOut { from { opacity: 1; } to { opacity: 0; } }
+
+.marquee { display: flex; gap: 3rem; animation: marquee 40s linear infinite; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .marquee { animation: none; }
+  html { scroll-behavior: auto; }
+  /* No travel, just a short cross-free fade. */
+  .phrase-in  { animation: phraseFadeIn 200ms linear both; }
+  .phrase-out { animation: phraseFadeOut 200ms linear both; }
+}
+input, select, textarea { @apply w-full rounded-card border border-steel-300 bg-white px-3 py-2.5 text-sm text-steel-900 placeholder:text-steel-400 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20; }
+label { @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-steel-600; }
