@@ -22,6 +22,7 @@ export default function Header() {
     setSearchOpen(false); setTerm('');
   };
   return (
+    <>
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       {/* Utility bar: right aligned locale / WhatsApp / phone, as on the KEAA header. */}
       <div className="hidden border-b border-steel-100 bg-brand-tint/60 text-xs text-steel-600 md:block">
@@ -105,10 +106,12 @@ export default function Header() {
           <button className="rounded p-2 lg:hidden" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
         </div>
       </div>
+    </header>
 
+      {/* Fixed layers live outside <header>: its backdrop-filter would otherwise become their containing block. */}
       <AnimatePresence>
         {open && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 top-16 z-30 overflow-y-auto bg-white lg:hidden">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-x-0 bottom-0 top-16 z-30 overflow-y-auto bg-white md:top-[6.25rem] lg:hidden">
             <nav className="wrap-full py-6" aria-label="Mobile">
               <form onSubmit={submitSearch} role="search" className="mb-5">
                 <input type="search" value={term} onChange={(e) => setTerm(e.target.value)} placeholder="Search products" aria-label="Search products" />
@@ -130,6 +133,6 @@ export default function Header() {
         <a href={company.social.whatsapp} className="py-3 text-center">WhatsApp</a>
         <a href={`tel:${company.phones[0].replace(/\s/g, '')}`} onClick={() => track('phone_click')} className="py-3 text-center">Call</a>
       </div>
-    </header>
+    </>
   );
 }

@@ -12,7 +12,7 @@ export function ProductCard({ p }) {
     <Link to={p.path} className="group card-border flex flex-col rounded-card bg-white">
       <div className="aspect-[3/2] overflow-hidden rounded-t-card bg-white">
         {p.image ? (
-          <img src={img(p.image, { w: 480, h: 320 })} alt={`${p.name}, ${p.keyword}`} width="480" height="320" loading="lazy" className="h-full w-full object-contain p-2 transition-transform duration-500 group-hover:scale-[1.04]" />
+          <img src={img(p.image, { w: 480, h: 320, fit: 'fit' })} alt={`${p.name}, ${p.keyword}`} width="480" height="320" loading="lazy" className="h-full w-full object-contain p-2 transition-transform duration-500 group-hover:scale-[1.04]" />
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center gap-1 rounded-t-card bg-brand-tint/50 px-3 text-center">
             <span className="text-sm font-semibold text-brand">{p.name}</span>
@@ -20,15 +20,15 @@ export function ProductCard({ p }) {
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col p-3">
-        <h3 className="text-base font-semibold leading-snug text-steel-900 group-hover:text-brand">{p.name}</h3>
-        {p.itemCode && <p className="mt-0.5 text-sm text-brand">{p.itemCode}</p>}
+      <div className="flex min-w-0 flex-1 flex-col p-3">
+        <h3 className="break-words text-sm font-semibold leading-snug text-steel-900 group-hover:text-brand sm:text-base">{p.name}</h3>
+        {p.itemCode && <p className="mt-0.5 break-words text-xs text-brand sm:text-sm">{p.itemCode}</p>}
         {tube && (
           <p className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-steel-600">
             Diameter<span className="mt-0.5 block text-sm font-medium normal-case tracking-normal text-steel-900">{tube}</span>
           </p>
         )}
-        {finish && <span className="mt-2 inline-block w-fit rounded-full border border-brand/40 px-3 py-0.5 text-[11px] font-medium text-brand">{finish}</span>}
+        {finish && <span className="mt-2 inline-block w-fit max-w-full rounded-full border border-brand/40 px-2 py-0.5 text-[11px] font-medium text-brand sm:px-3">{finish}</span>}
         <p className="mt-auto pt-3 text-xs text-steel-600">{p.keyword}</p>
       </div>
     </Link>

@@ -24,8 +24,8 @@ export default function ProductDetail() {
       <Breadcrumbs items={crumbs} />
       <section className="wrap grid gap-10 py-8 lg:grid-cols-[1.1fr_1fr]">
         <div>
-          <div className="aspect-[4/3] overflow-hidden rounded-card bg-steel-50">{imgs[i] && <img src={img(imgs[i], { w: 1000, h: 750, fit: 'pad' })} alt={`${p.name}, view ${i + 1}`} width="1000" height="750" className="h-full w-full object-contain" />}</div>
-          {imgs.length > 1 && <div className="mt-3 grid grid-cols-6 gap-2">{imgs.map((u, k) => <button key={u} onClick={() => setI(k)} aria-label={`View image ${k + 1}`} className={`aspect-square overflow-hidden rounded border ${k === i ? 'border-brand' : 'border-steel-200'}`}><img src={img(u, { w: 160, h: 160 })} alt="" width="160" height="160" loading="lazy" className="h-full w-full object-cover" /></button>)}</div>}
+          <div className="aspect-[4/3] overflow-hidden rounded-card bg-white">{imgs[i] && <img src={img(imgs[i], { w: 1000, h: 750, fit: 'fit' })} alt={`${p.name}, view ${i + 1}`} width="1000" height="750" className="h-full w-full object-contain p-3 sm:p-5" />}</div>
+          {imgs.length > 1 && <div className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-6">{imgs.map((u, k) => <button key={u} onClick={() => setI(k)} aria-label={`View image ${k + 1}`} className={`aspect-square overflow-hidden rounded border bg-white ${k === i ? 'border-brand' : 'border-steel-200'}`}><img src={img(u, { w: 160, h: 160, fit: 'fit' })} alt="" width="160" height="160" loading="lazy" className="h-full w-full object-contain p-1" /></button>)}</div>}
         </div>
         <div className="lg:sticky lg:top-28 lg:self-start">
           <Reveal>
@@ -40,16 +40,16 @@ export default function ProductDetail() {
         </div>
       </section>
       <section className="wrap py-8">
-        <div className="flex gap-2 border-b border-steel-200">{['overview', 'specifications', 'applications', 'downloads'].map((t) => <button key={t} onClick={() => setTab(t)} className={`-mb-px border-b-2 px-4 py-3 text-sm font-semibold capitalize ${tab === t ? 'border-brand text-brand' : 'border-transparent text-steel-600'}`}>{t}</button>)}</div>
+        <div className="flex gap-1 overflow-x-auto shadow-[inset_0_-1px_0_0_theme(colors.steel.200)] sm:gap-2">{['overview', 'specifications', 'applications', 'downloads'].map((t) => <button key={t} onClick={() => setTab(t)} className={`shrink-0 whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold capitalize sm:px-4 ${tab === t ? 'border-brand text-brand' : 'border-transparent text-steel-600'}`}>{t}</button>)}</div>
         <div className="py-6 text-steel-800">
           {tab === 'overview' && <p>{p.description}. Part of the {kw.toLowerCase()} range. Ask for the current stock position and a price for your quantity.</p>}
-          {tab === 'specifications' && (specs.length ? <table className="w-full text-sm"><tbody>{specs.map((x, k) => <tr key={k} className="border-b border-steel-100"><th className="py-2 pr-4 text-left font-medium text-steel-600">{x.label || x.name}</th><td className="py-2">{x.value}</td></tr>)}</tbody></table> : <p className="text-sm text-steel-600">Full specification is supplied with the quotation. Send the intended use and we return the datasheet.</p>)}
+          {tab === 'specifications' && (specs.length ? <table className="w-full text-sm"><tbody>{specs.map((x, k) => <tr key={k} className="border-b border-steel-100"><th className="py-2 pr-4 text-left font-medium text-steel-600 [overflow-wrap:anywhere]">{x.label || x.name}</th><td className="py-2 [overflow-wrap:anywhere]">{x.value}</td></tr>)}</tbody></table> : <p className="text-sm text-steel-600">Full specification is supplied with the quotation. Send the intended use and we return the datasheet.</p>)}
           {tab === 'applications' && <p>Used by contractors, farms, merchants and installers across the Benelux and Germany. Tell us the application and we confirm the right variant.</p>}
           {tab === 'downloads' && <p className="text-sm text-steel-600">Datasheets are supplied on request with each quotation.</p>}
         </div>
       </section>
       <section id="enquire" className="bg-steel-50"><div className="wrap section grid gap-10 lg:grid-cols-[1fr_1.4fr]"><div><h2 className="text-2xl font-bold">Enquire about {p.name}</h2><p className="mt-2 text-sm text-steel-600">Quantity and delivery address are enough. We reply within one working day for stock items.</p></div><EnquiryForm kind="product" product={`${p.name}${p.itemCode ? ` (${p.itemCode})` : ''}`} /></div></section>
-      {related.length > 0 && <section className="wrap section"><h2 className="text-2xl font-bold">Related products</h2><div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{related.map((r) => <ProductCard key={r.id} p={r} />)}</div></section>}
+      {related.length > 0 && <section className="wrap section"><h2 className="text-2xl font-bold">Related products</h2><div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">{related.map((r) => <ProductCard key={r.id} p={r} />)}</div></section>}
     </>
   );
 }

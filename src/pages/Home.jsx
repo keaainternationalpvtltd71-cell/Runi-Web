@@ -60,7 +60,7 @@ export default function Home() {
 
       <section className="section"><div className="wrap">
         <Reveal className="flex items-end justify-between gap-6"><div><p className="eyebrow">In the range</p><h2 className="mt-2 text-3xl font-bold sm:text-4xl">Selected products</h2></div><Link to="/products" className="btn-ghost hidden sm:inline-flex">All products</Link></Reveal>
-        <Stagger className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{featured.map((p) => <Item key={p.id}><ProductCard p={p} /></Item>)}</Stagger>
+        <Stagger className="mt-10 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">{featured.map((p) => <Item key={p.id}><ProductCard p={p} /></Item>)}</Stagger>
       </div></section>
 
       <section className="section"><div className="wrap grid gap-10 md:grid-cols-2 md:items-center">

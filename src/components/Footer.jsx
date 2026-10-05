@@ -12,8 +12,8 @@ const SOCIAL = [
 export default function Footer() {
   const products = mainNav.find((n) => n.to === '/products')?.children || [];
   return (
-    <footer className="mt-16 bg-steel-900 text-steel-300">
-      <div className="wrap-full grid gap-10 py-14 md:grid-cols-4">
+    <footer className="mt-16 bg-steel-900 pb-14 text-steel-300 sm:pb-0">
+      <div className="wrap-full grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <img src="/logo.png" alt="RUNI Industries" width="120" height="60" className="h-12 w-auto rounded bg-white p-1" />
           <p className="mt-4 text-sm">{company.name}. Importer and stockist of steel hardware for construction, agriculture and timber building, supplying Europe from Eindhoven.</p>

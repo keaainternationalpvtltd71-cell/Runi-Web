@@ -33,12 +33,15 @@ function HeroCarousel() {
         <h1 className="max-w-3xl text-3xl font-bold leading-tight text-white sm:text-5xl">Committed to European Standards</h1>
         <p className="mt-5 max-w-2xl text-lg text-steel-200">EN certified in our own name, made at an ISO and CE certified production site.</p>
       </div>
-      <button type="button" onClick={() => go(-1)} aria-label="Previous image" className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/15 p-2 text-white backdrop-blur hover:bg-white/30"><ChevronLeft className="h-5 w-5" /></button>
-      <button type="button" onClick={() => go(1)} aria-label="Next image" className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/15 p-2 text-white backdrop-blur hover:bg-white/30"><ChevronRight className="h-5 w-5" /></button>
-      <div className="absolute inset-x-0 bottom-5 flex justify-center gap-2">
+      {/* Side arrows only where the gutter is wider than the arrow; below that they sit beside the dots. */}
+      <button type="button" onClick={() => go(-1)} aria-label="Previous image" className="absolute left-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-white/15 p-2 text-white backdrop-blur hover:bg-white/30 xl:block"><ChevronLeft className="h-5 w-5" /></button>
+      <button type="button" onClick={() => go(1)} aria-label="Next image" className="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-full bg-white/15 p-2 text-white backdrop-blur hover:bg-white/30 xl:block"><ChevronRight className="h-5 w-5" /></button>
+      <div className="absolute inset-x-0 bottom-4 flex items-center justify-center gap-2">
+        <button type="button" onClick={() => go(-1)} aria-label="Previous image" className="mr-2 rounded-full bg-white/15 p-1.5 text-white backdrop-blur hover:bg-white/30 xl:hidden"><ChevronLeft className="h-4 w-4" /></button>
         {SLIDES.map((src, k) => (
           <button key={src} type="button" onClick={() => setI(k)} aria-label={`Show image ${k + 1}`} className={`h-2 rounded-full transition-all ${k === i ? 'w-6 bg-white' : 'w-2 bg-white/50'}`} />
         ))}
+        <button type="button" onClick={() => go(1)} aria-label="Next image" className="ml-2 rounded-full bg-white/15 p-1.5 text-white backdrop-blur hover:bg-white/30 xl:hidden"><ChevronRight className="h-4 w-4" /></button>
       </div>
     </section>
   );

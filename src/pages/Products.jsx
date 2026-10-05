@@ -128,7 +128,7 @@ export default function Products() {
               <p className="mt-1 text-sm text-steel-600">Try a shorter search, or send us what you need and we will source it.</p>
             </div>
           ) : (
-            <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{list.slice(0, n).map((p) => <ProductCard key={p.id} p={p} />)}</div>
+            <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">{list.slice(0, n).map((p) => <ProductCard key={p.id} p={p} />)}</div>
           )}
           {n < list.length && <div className="mt-10 text-center"><button className="btn-ghost" onClick={() => setN(n + PAGE)}>Load more ({list.length - n} left)</button></div>}
         </div>
@@ -152,7 +152,7 @@ export default function Products() {
                     <h3 className="text-xl font-bold text-steel-900">{c.name}</h3>
                     <Link to={`/products/${c.slug}`} className="shrink-0 text-sm font-semibold text-brand hover:underline">View all <ArrowRight className="inline h-4 w-4" /></Link>
                   </div>
-                  <Stagger className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                  <Stagger className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
                     {items.map((p) => <Item key={p.id}><ProductCard p={p} /></Item>)}
                   </Stagger>
                 </div>

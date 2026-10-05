@@ -10,15 +10,18 @@
   --w-content: 1760px;
 }
 html { scroll-behavior: smooth; }
-body { @apply bg-white text-steel-800 antialiased font-sans; }
+body { @apply bg-white text-steel-800 antialiased font-sans; overflow-wrap: break-word; }
 h1, h2, h3, h4 { @apply text-steel-900 tracking-tight; }
 .wrap { @apply mx-auto w-full; max-width: var(--w-content); padding-inline: var(--gutter); }
 /* Edge to edge bars (header, footer): gutter only, no centring measure. */
 .wrap-full { @apply w-full; padding-inline: var(--gutter); }
-.btn { @apply inline-flex items-center justify-center gap-2 rounded-card px-5 py-3 text-sm font-semibold transition-transform duration-200 will-change-transform focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
-.btn-primary { @apply btn bg-brand text-white hover:bg-brand-dark hover:-translate-y-0.5; }
-.btn-ghost { @apply btn border border-steel-300 text-steel-900 hover:border-brand hover:text-brand; }
-.btn-light { @apply btn bg-white text-brand-deep hover:bg-steel-100; }
+/* In the components layer so utilities such as `hidden sm:inline-flex` or `lg:hidden` win over the button's display. */
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-card px-5 py-3 text-sm font-semibold transition-transform duration-200 will-change-transform focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+  .btn-primary { @apply btn bg-brand text-white hover:bg-brand-dark hover:-translate-y-0.5; }
+  .btn-ghost { @apply btn border border-steel-300 text-steel-900 hover:border-brand hover:text-brand; }
+  .btn-light { @apply btn bg-white text-brand-deep hover:bg-steel-100; }
+}
 .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-brand; }
 .section { @apply py-16 sm:py-24; }
 .rule { @apply h-px w-16 bg-brand; }

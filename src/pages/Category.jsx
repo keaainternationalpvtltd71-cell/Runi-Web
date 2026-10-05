@@ -76,7 +76,7 @@ function Listing({ cat, sub, list }) {
               <button type="button" className="btn-ghost mt-4" onClick={() => setActive(EMPTY)}>Clear filters</button>
             </div>
           ) : (
-            <Stagger className="mt-6 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+            <Stagger className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 xl:grid-cols-3">
               {shown.map((p) => <Item key={p.id}><ProductCard p={p} /></Item>)}
             </Stagger>
           )}
