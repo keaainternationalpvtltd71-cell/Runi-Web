@@ -11,7 +11,8 @@ import { track } from '../lib/analytics.js';
  * the sitemap script leaves it out.
  */
 
-const ENDPOINT = '/api/inquiry';
+/* Sending is switched off for the UI-first launch; see submit() below and api/inquiry.js. */
+// const ENDPOINT = '/api/inquiry';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const SUCCESS = 'Thank you for contacting RUNI Industries. Our team will get back to you shortly.';
 
@@ -68,28 +69,32 @@ function InquiryForm() {
       document.getElementById(`inq-${ORDER.find((k) => errs[k])}`)?.focus();
       return;
     }
-    sending.current = true;
-    setState('submitting');
-    try {
-      const r = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...f, website: honeypot, sourceUrl: window.location.href }),
-      });
-      const body = await r.json().catch(() => ({}));
-      if (r.status === 422 && body.fields) {
-        setErrors(body.fields);
-        setState('idle');
-        sending.current = false;
-        return;
-      }
-      if (!r.ok || !body.ok) throw new Error(`HTTP ${r.status}`);
-      setState('success');
-      track('inquiry_submit', { type: f.inquiryType || 'unspecified' });
-    } catch {
-      setState('error');
-      sending.current = false;
-    }
+    // Sending is switched off for the UI-first launch: no backend is connected yet, so a valid
+    // inquiry gets the phone / WhatsApp / email notice instead. The request is kept below,
+    // commented out; switch it back on together with api/inquiry.js.
+    setState('offline');
+    // sending.current = true;
+    // setState('submitting');
+    // try {
+    //   const r = await fetch(ENDPOINT, {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify({ ...f, website: honeypot, sourceUrl: window.location.href }),
+    //   });
+    //   const body = await r.json().catch(() => ({}));
+    //   if (r.status === 422 && body.fields) {
+    //     setErrors(body.fields);
+    //     setState('idle');
+    //     sending.current = false;
+    //     return;
+    //   }
+    //   if (!r.ok || !body.ok) throw new Error(`HTTP ${r.status}`);
+    //   setState('success');
+    //   track('inquiry_submit', { type: f.inquiryType || 'unspecified' });
+    // } catch {
+    //   setState('error');
+    //   sending.current = false;
+    // }
   }
 
   if (state === 'success') {
@@ -139,6 +144,13 @@ function InquiryForm() {
           <label htmlFor="inq-website">Website</label>
           <input id="inq-website" name="website" tabIndex={-1} autoComplete="off" value={honeypot} onChange={(e) => setHoneypot(e.target.value)} />
         </div>
+
+        {state === 'offline' && (
+          <p role="status" className="rounded-lg border border-brand/30 bg-brand-tint px-4 py-3 text-sm text-steel-900 sm:col-span-2">
+            The inquiry service is not connected yet. Please call or WhatsApp us with the buttons above, or email us at{' '}
+            <a className="font-semibold underline" href={`mailto:${company.emails[0]}`}>{company.emails[0]}</a>.
+          </p>
+        )}
 
         {state === 'error' && (
           <p role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 sm:col-span-2">

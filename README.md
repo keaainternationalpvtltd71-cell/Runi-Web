@@ -2,6 +2,8 @@
 
 React 18, Vite 5, Tailwind, framer-motion, react-router 6, prerendered with vite-react-ssg. Deploys to Vercel as a static site. Backend enquiries POST to `VITE_ENQUIRY_ENDPOINT`.
 
+**Form sending is switched off for the UI-first launch.** The requests in `src/components/EnquiryForm.jsx` and `src/pages/Inquiry.jsx` are commented out, and `api/inquiry.js` is a stub that answers 503. Every form still validates, and a valid submission asks the visitor to email or call instead. The original code is kept in place, commented out; switch it back on when the forms are connected to a backend.
+
 ## Run
 ```
 npm install

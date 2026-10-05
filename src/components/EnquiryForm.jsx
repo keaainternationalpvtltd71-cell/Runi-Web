@@ -4,7 +4,8 @@ import { track } from '../lib/analytics.js';
 import { company } from '../data/company.js';
 import { allCategories } from '../lib/catalog.js';
 
-const ENDPOINT = import.meta.env.VITE_ENQUIRY_ENDPOINT;
+/* Sending is switched off for the UI-first launch; see submit() below. */
+// const ENDPOINT = import.meta.env.VITE_ENQUIRY_ENDPOINT;
 const DIAL = '+31';
 const MAX_WORDS = 250;
 
@@ -66,24 +67,24 @@ export default function EnquiryForm({ tab = 'contact', onTabChange, product = ''
     e.preventDefault(); setErr('');
     if (!f.name || !f.email || !f.subject || !f.message) { setErr('Name, email, subject and message are required.'); return; }
     if (overLimit) { setErr(`Please shorten the message to ${MAX_WORDS} words or fewer.`); return; }
-    if (!ENDPOINT) {
-      setState('error');
-      setErr(`The enquiry service is not connected yet. Please email ${company.emails[0]} or call ${company.phones[0]}.`);
-      return;
-    }
-    setState('submitting');
-    try {
-      const r = await fetch(ENDPOINT, {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ kind: active.kind, ...f, phone: f.phone ? `${DIAL} ${f.phone}` : '', site: 'runi' }),
-      });
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      setState('success');
-      track(active.kind === 'contact' ? 'contact_submit' : `${active.kind}_enquiry`, { product });
-    } catch {
-      setState('error');
-      setErr(`We could not send your enquiry. Please try again or email ${company.emails[0]}.`);
-    }
+    // Sending is switched off for the UI-first launch: no backend is connected yet, so a valid
+    // enquiry gets the same email / phone message the live site shows today. The request is kept
+    // below, commented out; switch it back on when the forms are connected.
+    setState('error');
+    setErr(`The enquiry service is not connected yet. Please email ${company.emails[0]} or call ${company.phones[0]}.`);
+    // setState('submitting');
+    // try {
+    //   const r = await fetch(ENDPOINT, {
+    //     method: 'POST', headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify({ kind: active.kind, ...f, phone: f.phone ? `${DIAL} ${f.phone}` : '', site: 'runi' }),
+    //   });
+    //   if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    //   setState('success');
+    //   track(active.kind === 'contact' ? 'contact_submit' : `${active.kind}_enquiry`, { product });
+    // } catch {
+    //   setState('error');
+    //   setErr(`We could not send your enquiry. Please try again or email ${company.emails[0]}.`);
+    // }
   }
 
   if (state === 'success') {
