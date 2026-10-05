@@ -4,6 +4,7 @@ import Products from './pages/Products.jsx';
 import { CategoryPage, SubcategoryPage } from './pages/Category.jsx';
 import Certifications from './pages/Certifications.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
+import Inquiry from './pages/Inquiry.jsx';
 import { About, Quality, Contact, Legal, NotFound } from './pages/Static.jsx';
 import { allCategories, allProducts } from './lib/catalog.js';
 
@@ -28,4 +29,6 @@ export const routes = [
       { path: '*', Component: NotFound },
     ],
   },
+  /* Standalone, outside Layout: reached only by direct URL or QR code. */
+  { path: '/inquiry', Component: Inquiry },
 ];
