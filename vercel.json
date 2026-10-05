@@ -595,12 +595,12 @@
     },
     {
       "source": "/careers",
-      "destination": "/careers",
+      "destination": "/contact",
       "permanent": true
     },
     {
       "source": "/public/careers",
-      "destination": "/careers",
+      "destination": "/contact",
       "permanent": true
     },
     {

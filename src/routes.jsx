@@ -4,7 +4,7 @@ import Products from './pages/Products.jsx';
 import { CategoryPage, SubcategoryPage } from './pages/Category.jsx';
 import Certifications from './pages/Certifications.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
-import { About, Quality, Contact, Careers, Legal, NotFound } from './pages/Static.jsx';
+import { About, Quality, Contact, Legal, NotFound } from './pages/Static.jsx';
 import { allCategories, allProducts } from './lib/catalog.js';
 
 export const routes = [
@@ -20,7 +20,9 @@ export const routes = [
       { path: 'quality', Component: Quality },
       { path: 'certifications', Component: Certifications },
       { path: 'contact', Component: Contact },
-      { path: 'careers', Component: Careers },
+      // Careers is disabled for now. To restore: import Careers from Static.jsx, re-add
+      // { path: 'careers', Component: Careers }, the footer link in navigation.js, and drop the
+      // /careers redirect in scripts/runi-legacy-redirects.json.
       { path: ':slug', Component: Legal, getStaticPaths: () => ['privacy-policy', 'cookie-policy', 'terms'] },
       { path: '404', Component: NotFound },
       { path: '*', Component: NotFound },

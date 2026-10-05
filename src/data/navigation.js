@@ -39,7 +39,6 @@ export const footerNav = {
     { label: 'About RUNI', to: '/about' },
     { label: 'Quality and standards', to: '/quality' },
     { label: 'Certifications', to: '/certifications' },
-    { label: 'Careers', to: '/careers' },
     { label: 'Contact', to: '/contact' },
   ],
   legal: [
