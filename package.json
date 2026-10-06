@@ -7,7 +7,7 @@
     "dev": "vite",
     "prebuild": "node scripts/gen-redirects.mjs",
     "build": "vite-react-ssg build",
-    "postbuild": "node scripts/gen-sitemap.mjs && node scripts/check-brand.mjs",
+    "postbuild": "node scripts/gen-sitemap.mjs && node scripts/check-brand.mjs && node scripts/gen-htaccess.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
