@@ -29,10 +29,10 @@ export const brand = {
   logoStacked: '/media/site/logo1.png',
 };
 
-/* Homepage hero: RUNI's warehouse. No video exists on runiindustries.eu to use here. */
+/* Homepage hero: RUNI's office and warehouse building in Eindhoven. */
 export const hero = {
-  image: '/media/site/slide01.jpg',
-  alt: 'Racked warehouse stock ready for dispatch',
+  image: '/media/site/runi-building.jpg',
+  alt: 'RUNI Industries office and warehouse at Park Forum 1005, Eindhoven',
 };
 
 /* Wide shots used behind headings and as section breaks. */

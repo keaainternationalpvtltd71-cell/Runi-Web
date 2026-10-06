@@ -26,20 +26,20 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover"
         />
         {/* Blackish shade into every edge; no colour cast over the photograph. */}
-        <div className="absolute inset-0 bg-[radial-gradient(120%_120%_at_70%_20%,rgba(0,0,0,0.15)_0%,rgba(0,0,0,0.55)_55%,rgba(0,0,0,0.88)_100%)]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/35 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(120%_120%_at_70%_20%,rgba(0,0,0,0)_0%,rgba(0,0,0,0.2)_55%,rgba(0,0,0,0.5)_100%)]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/15 to-transparent" />
         <div className="wrap relative flex min-h-[78vh] flex-col justify-center py-24">
           <Reveal>
             {/* Type scale mirrors the reference hero: one size for both lines, tight leading so
                 they read as a single stacked headline, and the rotating line in brand blue. */}
             <RotatingHeadline
               lead={hero.h1} phrases={hero.h1Phrases}
-              className="max-w-6xl text-[clamp(1.75rem,calc(6.4vw-4.6px),2.25rem)] font-bold leading-[1.08] tracking-[-0.02em] text-white sm:text-[clamp(2rem,calc(6.4vw-8.8px),3rem)] lg:text-[clamp(3rem,calc(4.375vw+8.2px),3.75rem)]"
+              className="max-w-6xl [text-shadow:0_1px_3px_rgba(0,0,0,0.8),0_2px_20px_rgba(0,0,0,0.55)] text-[clamp(1.75rem,calc(6.4vw-4.6px),2.25rem)] font-bold leading-[1.08] tracking-[-0.02em] text-white sm:text-[clamp(2rem,calc(6.4vw-8.8px),3rem)] lg:text-[clamp(3rem,calc(4.375vw+8.2px),3.75rem)]"
               phraseClassName="text-brand-light"
             />
           </Reveal>
           <Reveal delay={0.1}>
-            <p className="mt-4 text-sm font-semibold text-white/90">{hero.strapline}</p>
+            <p className="mt-4 text-sm font-semibold text-white/90 [text-shadow:0_1px_8px_rgba(0,0,0,0.7)]">{hero.strapline}</p>
           </Reveal>
           <a href="#ranges" className="absolute bottom-6 left-1/2 -translate-x-1/2 text-steel-400 hover:text-white" aria-label="Scroll to product ranges"><ChevronDown className="h-6 w-6 animate-bounce motion-reduce:animate-none" /></a>
         </div>
