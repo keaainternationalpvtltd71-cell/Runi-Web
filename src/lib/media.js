@@ -15,8 +15,8 @@ export function img(url, { w = 800, h, fit = 'fill' } = {}) {
       .join(',');
     return `${KEAA_MEDIA}/cdn-cgi/image/${t}/${key}`;
   }
-  // Aluminium range images still live on RUNI's own Cloudinary cloud (bp2khaln) until that
-  // small set moves to R2 too — see the migration notes.
+  // Legacy branch: nothing references Cloudinary any more (the aluminium set moved to R2,
+  // 2.runi-assets/, on 2026-10-07); kept so an overlooked URL still renders.
   if (url.includes('res.cloudinary.com')) {
     const t = [`f_auto`, `q_auto`, `w_${w}`, h ? `h_${h}` : null, fit ? `c_${fit}` : null].filter(Boolean).join(',');
     // Same transform slot for uploaded assets and for originals delivered via /fetch/.
