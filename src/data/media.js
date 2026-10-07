@@ -20,8 +20,11 @@
 
 import { aluminiumImages } from './aluminium.js';
 
-const CLOUD = 'https://res.cloudinary.com/keaa-assets';
-const up = (id) => `${CLOUD}/image/upload/${id}`;
+/* The shared media bucket (Cloudflare R2, bucket keaa-media). `up` takes the full object
+ * key; lib/media.js img() adds /cdn-cgi/image/ transforms at render time. The old
+ * Cloudinary account these assets lived on was disabled 2026-10-07. */
+const MEDIA = 'https://media.keaainternational.com';
+const up = (key) => `${MEDIA}/${key}`;
 
 /* RUNI's own brand and building. */
 export const brand = {
@@ -95,29 +98,31 @@ export const subImage = {
 
 /* Rendered process plates for the Quality page. */
 export const process = [
-  { key: 'laser-sheet', title: 'Sheet laser cutting', image: up('Sheet_laser_Cutting_oa7ib6') },
-  { key: 'laser-tube', title: 'Tube laser cutting', image: up('Tube_Laser_Cutting_mx4lc9') },
-  { key: 'press-brake', title: 'CNC press brake forming', image: up('CNC_Press_Brake_tcsl3k') },
-  { key: 'welding', title: 'Robotic welding', image: up('Robotic_Welding_Stations_vnvqos') },
-  { key: 'galvanising', title: 'Hot dip galvanising', image: up('Hot_Dip_Galvanizing_Plant_ze1vep') },
-  { key: 'powder', title: 'Powder coating', image: up('Automatic_Powder_Coating_Plant_guv3pr') },
+  { key: 'laser-sheet', title: 'Sheet laser cutting', image: up('1.keaa-assets/keaa-manufacturing/sheet_laser_cutting_oa7ib6.png') },
+  { key: 'laser-tube', title: 'Tube laser cutting', image: up('1.keaa-assets/keaa-manufacturing/tube_laser_cutting_mx4lc9.png') },
+  { key: 'press-brake', title: 'CNC press brake forming', image: up('1.keaa-assets/keaa-manufacturing/cnc_press_brake_tcsl3k.png') },
+  { key: 'welding', title: 'Robotic welding', image: up('1.keaa-assets/keaa-manufacturing/robotic_welding_stations_vnvqos.png') },
+  { key: 'galvanising', title: 'Hot dip galvanising', image: up('1.keaa-assets/keaa-manufacturing/hot_dip_galvanizing_plant_ze1vep.png') },
+  { key: 'powder', title: 'Powder coating', image: up('1.keaa-assets/keaa-manufacturing/automatic_powder_coating_plant_guv3pr.png') },
 ];
 
-/* The one certificate scan that can be published. See the note at the top of this file. */
+/* The one certificate scan that can be published. See the note at the top of this file.
+ * R2 cannot rasterise a PDF the way Cloudinary could, so this points at the PRE-RENDERED
+ * first page uploaded next to the document (derived-assets.csv in the keaa-website repo). */
 export const certificateScan = {
-  'en74-couplers': up('9137-9_Certificate-of-Conformity_RA_SW-coupler_2026-07-31_zykes2'),
+  'en74-couplers': up('1.keaa-assets/keaa-certificates/9137-9_certificate-of-conformity_ra_sw-coupler_2026-07-31_zykes2/page-1.jpg'),
 };
 
 /* Scheme marks only: no company name appears on any of these. */
 export const standards = [
-  { key: 'iso', label: 'ISO 9001 / 14001 / 45001', image: up('ISO_9001_14001_45001_wrszlx') },
-  { key: 'tuv', label: 'TÜV Rheinland ISO 9001:2015', image: up('ChatGPT_Image_23_Sept_2026_10_59_42_p9trct') },
-  { key: 'ce', label: 'CE marked to ETA', image: up('CE_Certified_heisan') },
-  { key: 'en1065', label: 'Props to EN 1065, couplers to EN 74-1', image: up('ChatGPT_Image_23_Sept_2026_10_48_14_x1gpjq') },
-  { key: 'galv', label: 'Hot dip galvanising to EN ISO 1461', image: up('ChatGPT_Image_23_Sept_2026_10_48_56_ec1d2o') },
-  { key: 'en1090', label: 'EN 1090-1 factory production control', image: up('DIN_EN_1090-1_fwxhqh') },
-  { key: 'slv', label: 'SLV Mannheim welding qualification', image: up('EN_1090_Part_2_and_Part_3_dp5fl6') },
-  { key: 'bsci', label: 'BSCI social compliance', image: up('BSCI_Compliant_epigki') },
-  { key: 'ctpat', label: 'C-TPAT supply chain security', image: up('Ct-PAT_z5gdra') },
-  { key: 'cto', label: 'Environmental compliance', image: up('CTO_CTE_xtttnf') },
+  { key: 'iso', label: 'ISO 9001 / 14001 / 45001', image: up('1.keaa-assets/keaa-certificates/iso_9001_14001_45001_wrszlx.png') },
+  { key: 'tuv', label: 'TÜV Rheinland ISO 9001:2015', image: up('1.keaa-assets/keaa-certificates/chatgpt_image_23_sept_2026_10_59_42_p9trct.png') },
+  { key: 'ce', label: 'CE marked to ETA', image: up('1.keaa-assets/keaa-certificates/ce_certified_heisan.png') },
+  { key: 'en1065', label: 'Props to EN 1065, couplers to EN 74-1', image: up('1.keaa-assets/keaa-certificates/chatgpt_image_23_sept_2026_10_48_14_x1gpjq.png') },
+  { key: 'galv', label: 'Hot dip galvanising to EN ISO 1461', image: up('1.keaa-assets/keaa-certificates/chatgpt_image_23_sept_2026_10_48_56_ec1d2o.png') },
+  { key: 'en1090', label: 'EN 1090-1 factory production control', image: up('1.keaa-assets/keaa-certificates/din_en_1090-1_fwxhqh.png') },
+  { key: 'slv', label: 'SLV Mannheim welding qualification', image: up('1.keaa-assets/keaa-certificates/en_1090_part_2_and_part_3_dp5fl6.png') },
+  { key: 'bsci', label: 'BSCI social compliance', image: up('1.keaa-assets/keaa-certificates/bsci_compliant_epigki.png') },
+  { key: 'ctpat', label: 'C-TPAT supply chain security', image: up('1.keaa-assets/keaa-certificates/ct-pat_z5gdra.png') },
+  { key: 'cto', label: 'Environmental compliance', image: up('1.keaa-assets/keaa-certificates/cto_cte_xtttnf.png') },
 ];
