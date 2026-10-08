@@ -9,12 +9,12 @@
   "description": "Ringlock Tower & Its Components",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-2.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-3.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-4.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-5.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-tower-281-6.jpg"
+   "/img/products/ringlock-tower-281-1.jpg",
+   "/img/products/ringlock-tower-281-2.jpg",
+   "/img/products/ringlock-tower-281-3.jpg",
+   "/img/products/ringlock-tower-281-4.jpg",
+   "/img/products/ringlock-tower-281-5.jpg",
+   "/img/products/ringlock-tower-281-6.jpg"
   ]
  },
  {
@@ -27,7 +27,7 @@
   "description": "Stair Case Step: Ringlock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/stair-case-step-273-0.jpg"
+   "/img/products/stair-case-step-273-0.jpg"
   ]
  },
  {
@@ -40,7 +40,7 @@
   "description": "Toe Board: Ringlock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/toe-board-272-0.jpg"
+   "/img/products/toe-board-272-0.jpg"
   ]
  },
  {
@@ -53,7 +53,7 @@
   "description": "Wall Tie: Ringlock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-tie-271-0.jpg"
+   "/img/products/wall-tie-271-0.jpg"
   ]
  },
  {
@@ -66,7 +66,7 @@
   "description": "Base Collar: Ringlock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/base-collar-270-0.jpg"
+   "/img/products/base-collar-270-0.jpg"
   ]
  },
  {
@@ -92,7 +92,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/lattice-girder-16-0.jpg"
+   "/img/products/lattice-girder-16-0.jpg"
   ]
  },
  {
@@ -118,7 +118,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/diagonal-brace-15-0.jpg"
+   "/img/products/diagonal-brace-15-0.jpg"
   ]
  },
  {
@@ -144,7 +144,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/board-bracket-14-0.jpg"
+   "/img/products/board-bracket-14-0.jpg"
   ]
  },
  {
@@ -190,7 +190,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-standard-13-0.jpg"
+   "/img/products/ringlock-standard-13-0.jpg"
   ]
  },
  {
@@ -240,7 +240,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-diagonal-brace-12-0.jpg"
+   "/img/products/ringlock-diagonal-brace-12-0.jpg"
   ]
  },
  {
@@ -290,7 +290,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ringlock-ledger-11-0.jpg"
+   "/img/products/ringlock-ledger-11-0.jpg"
   ]
  },
  {
@@ -352,7 +352,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/steel-plank-10-0.jpg"
+   "/img/products/steel-plank-10-0.jpg"
   ]
  },
  {
@@ -365,7 +365,7 @@
   "description": "Haki Tower and its Components",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/haki-tower-413-0.jpg"
+   "/img/products/haki-tower-413-0.jpg"
   ]
  },
  {
@@ -378,10 +378,10 @@
   "description": "We are specialized in custom made Scaffolding Frames/Towers",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/scaffold-frames-274-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/scaffold-frames-274-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/scaffold-frames-274-2.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/scaffold-frames-274-3.jpg"
+   "/img/products/scaffold-frames-274-0.jpg",
+   "/img/products/scaffold-frames-274-1.jpg",
+   "/img/products/scaffold-frames-274-2.jpg",
+   "/img/products/scaffold-frames-274-3.jpg"
   ]
  },
  {
@@ -419,8 +419,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-tube-transom-high-or-high-reinforced-22-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-tube-transom-high-or-high-reinforced-22-1.jpg"
+   "/img/products/single-tube-transom-high-or-high-reinforced-22-0.jpg",
+   "/img/products/single-tube-transom-high-or-high-reinforced-22-1.jpg"
   ]
  },
  {
@@ -458,9 +458,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-tube-transom-low-21-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-tube-transom-low-21-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-tube-transom-low-21-2.jpg"
+   "/img/products/single-tube-transom-low-21-0.jpg",
+   "/img/products/single-tube-transom-low-21-1.jpg",
+   "/img/products/single-tube-transom-low-21-2.jpg"
   ]
  },
  {
@@ -494,7 +494,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-frame-20-0.jpg"
+   "/img/products/guard-rail-frame-20-0.jpg"
   ]
  },
  {
@@ -540,8 +540,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/system-scaffolds-hk-19-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/system-scaffolds-hk-19-1.jpg"
+   "/img/products/system-scaffolds-hk-19-0.jpg",
+   "/img/products/system-scaffolds-hk-19-1.jpg"
   ]
  },
  {
@@ -575,8 +575,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/enhak-standard-18-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/enhak-standard-18-1.jpg"
+   "/img/products/enhak-standard-18-0.jpg",
+   "/img/products/enhak-standard-18-1.jpg"
   ]
  },
  {
@@ -606,8 +606,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ledger-17-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ledger-17-1.jpg"
+   "/img/products/ledger-17-0.jpg",
+   "/img/products/ledger-17-1.jpg"
   ]
  },
  {
@@ -620,7 +620,7 @@
   "description": "Cuplock Ladder Bracket: Cuplock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/cuplock-ladder-bracket-279-0.jpg"
+   "/img/products/cuplock-ladder-bracket-279-0.jpg"
   ]
  },
  {
@@ -633,7 +633,7 @@
   "description": "Truss Ledger: Cuplock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/truss-ledger-278-0.jpg"
+   "/img/products/truss-ledger-278-0.jpg"
   ]
  },
  {
@@ -646,7 +646,7 @@
   "description": "Ledger Blade: Cuplock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ledger-blade-277-0.jpg"
+   "/img/products/ledger-blade-277-0.jpg"
   ]
  },
  {
@@ -659,7 +659,7 @@
   "description": "Top Cup: Cuplock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/top-cup-276-0.jpg"
+   "/img/products/top-cup-276-0.jpg"
   ]
  },
  {
@@ -672,7 +672,7 @@
   "description": "Bottom Cup: Cuplock Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bottom-cup-275-0.jpg"
+   "/img/products/bottom-cup-275-0.jpg"
   ]
  },
  {
@@ -726,8 +726,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/diagonal-brace-26-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/diagonal-brace-26-1.jpg"
+   "/img/products/diagonal-brace-26-0.jpg",
+   "/img/products/diagonal-brace-26-1.jpg"
   ]
  },
  {
@@ -761,7 +761,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/side-bracket-25-0.jpg"
+   "/img/products/side-bracket-25-0.jpg"
   ]
  },
  {
@@ -787,8 +787,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ledger-24-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ledger-24-1.jpg"
+   "/img/products/ledger-24-0.jpg",
+   "/img/products/ledger-24-1.jpg"
   ]
  },
  {
@@ -814,7 +814,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/cuplock-standard-23-0.jpg"
+   "/img/products/cuplock-standard-23-0.jpg"
   ]
  },
  {
@@ -836,7 +836,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-connector-280-0.jpg"
+   "/img/products/guard-rail-connector-280-0.jpg"
   ]
  },
  {
@@ -862,7 +862,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-frame-9-0.jpg"
+   "/img/products/guard-rail-frame-9-0.jpg"
   ]
  },
  {
@@ -884,7 +884,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/v-brace-8-0.jpg"
+   "/img/products/v-brace-8-0.jpg"
   ]
  },
  {
@@ -906,7 +906,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/cross-braces-7-0.jpg"
+   "/img/products/cross-braces-7-0.jpg"
   ]
  },
  {
@@ -932,7 +932,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/frame-2-steps-6-0.jpg"
+   "/img/products/frame-2-steps-6-0.jpg"
   ]
  },
  {
@@ -958,7 +958,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/frame-3-steps-5-0.jpg"
+   "/img/products/frame-3-steps-5-0.jpg"
   ]
  },
  {
@@ -984,7 +984,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/frame-5-steps-4-0.jpg"
+   "/img/products/frame-5-steps-4-0.jpg"
   ]
  },
  {
@@ -1014,7 +1014,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/jack-nut-casted-288-0.jpg"
+   "/img/products/jack-nut-casted-288-0.jpg"
   ]
  },
  {
@@ -1044,7 +1044,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/jack-nut-forged-287-0.jpg"
+   "/img/products/jack-nut-forged-287-0.jpg"
   ]
  },
  {
@@ -1074,7 +1074,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/jack-nut-casted-286-0.jpg"
+   "/img/products/jack-nut-casted-286-0.jpg"
   ]
  },
  {
@@ -1104,7 +1104,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/jack-nut-forged-285-0.jpg"
+   "/img/products/jack-nut-forged-285-0.jpg"
   ]
  },
  {
@@ -1142,8 +1142,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/base-jack-with-welded-tube-284-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/base-jack-with-welded-tube-284-1.jpg"
+   "/img/products/base-jack-with-welded-tube-284-0.jpg",
+   "/img/products/base-jack-with-welded-tube-284-1.jpg"
   ]
  },
  {
@@ -1181,8 +1181,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-base-jack-with-locking-wing-nut-283-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-base-jack-with-locking-wing-nut-283-1.jpg"
+   "/img/products/adjustable-base-jack-with-locking-wing-nut-283-0.jpg",
+   "/img/products/adjustable-base-jack-with-locking-wing-nut-283-1.jpg"
   ]
  },
  {
@@ -1220,7 +1220,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-base-jack-282-0.jpg"
+   "/img/products/adjustable-base-jack-282-0.jpg"
   ]
  },
  {
@@ -1246,9 +1246,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-tie-31-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-tie-31-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-tie-31-2.jpg"
+   "/img/products/wall-tie-31-0.jpg",
+   "/img/products/wall-tie-31-1.jpg",
+   "/img/products/wall-tie-31-2.jpg"
   ]
  },
  {
@@ -1286,7 +1286,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-base-jack-heavy-duty-30-0.jpg"
+   "/img/products/swivel-base-jack-heavy-duty-30-0.jpg"
   ]
  },
  {
@@ -1324,7 +1324,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-base-jack-with-locking-strip-29-0.jpg"
+   "/img/products/adjustable-base-jack-with-locking-strip-29-0.jpg"
   ]
  },
  {
@@ -1362,7 +1362,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-base-jack-light-duty-28-0.jpg"
+   "/img/products/swivel-base-jack-light-duty-28-0.jpg"
   ]
  },
  {
@@ -1375,7 +1375,7 @@
   "description": "Canada Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/canada-lock-385-0.jpg"
+   "/img/products/canada-lock-385-0.jpg"
   ]
  },
  {
@@ -1388,7 +1388,7 @@
   "description": "C-Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/c-lock-384-0.jpg"
+   "/img/products/c-lock-384-0.jpg"
   ]
  },
  {
@@ -1401,7 +1401,7 @@
   "description": "V-Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/v-lock-383-0.jpg"
+   "/img/products/v-lock-383-0.jpg"
   ]
  },
  {
@@ -1414,7 +1414,7 @@
   "description": "Fast Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fast-lock-382-0.jpg"
+   "/img/products/fast-lock-382-0.jpg"
   ]
  },
  {
@@ -1427,7 +1427,7 @@
   "description": "Snap-On-Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/snap-on-lock-381-0.jpg"
+   "/img/products/snap-on-lock-381-0.jpg"
   ]
  },
  {
@@ -1440,7 +1440,7 @@
   "description": "Drop Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/drop-lock-380-0.jpg"
+   "/img/products/drop-lock-380-0.jpg"
   ]
  },
  {
@@ -1453,7 +1453,7 @@
   "description": "Flip Lock: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/flip-lock-379-0.jpg"
+   "/img/products/flip-lock-379-0.jpg"
   ]
  },
  {
@@ -1466,7 +1466,7 @@
   "description": "Pig Tall Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pig-tall-pin-378-0.jpg"
+   "/img/products/pig-tall-pin-378-0.jpg"
   ]
  },
  {
@@ -1479,7 +1479,7 @@
   "description": "Spring Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spring-pin-377-0.jpg"
+   "/img/products/spring-pin-377-0.jpg"
   ]
  },
  {
@@ -1492,7 +1492,7 @@
   "description": "Span Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/span-pin-376-0.jpg"
+   "/img/products/span-pin-376-0.jpg"
   ]
  },
  {
@@ -1505,7 +1505,7 @@
   "description": "Gravity Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/gravity-pin-375-0.jpg"
+   "/img/products/gravity-pin-375-0.jpg"
   ]
  },
  {
@@ -1518,7 +1518,7 @@
   "description": "Roll Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/roll-pin-374-0.jpg"
+   "/img/products/roll-pin-374-0.jpg"
   ]
  },
  {
@@ -1531,7 +1531,7 @@
   "description": "Rivet Pin: H Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/rivet-pin-373-0.jpg"
+   "/img/products/rivet-pin-373-0.jpg"
   ]
  },
  {
@@ -1553,7 +1553,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bridge-pole-372-0.jpg"
+   "/img/products/bridge-pole-372-0.jpg"
   ]
  },
  {
@@ -1575,7 +1575,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ladder-frame-371-0.jpg"
+   "/img/products/ladder-frame-371-0.jpg"
   ]
  },
  {
@@ -1597,7 +1597,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/walk-through-frame-370-0.jpg"
+   "/img/products/walk-through-frame-370-0.jpg"
   ]
  },
  {
@@ -1619,7 +1619,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/mason-frame-or-step-frame-369-0.jpg"
+   "/img/products/mason-frame-or-step-frame-369-0.jpg"
   ]
  },
  {
@@ -1632,7 +1632,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-392-0.jpg"
+   "/img/products/accessories-392-0.jpg"
   ]
  },
  {
@@ -1645,7 +1645,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-391-0.jpg"
+   "/img/products/accessories-391-0.jpg"
   ]
  },
  {
@@ -1658,7 +1658,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-390-0.jpg"
+   "/img/products/accessories-390-0.jpg"
   ]
  },
  {
@@ -1671,7 +1671,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-389-0.jpg"
+   "/img/products/accessories-389-0.jpg"
   ]
  },
  {
@@ -1684,7 +1684,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-388-0.jpg"
+   "/img/products/accessories-388-0.jpg"
   ]
  },
  {
@@ -1697,7 +1697,7 @@
   "description": "Accessories: Adjustable Steel Props component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/accessories-387-0.jpg"
+   "/img/products/accessories-387-0.jpg"
   ]
  },
  {
@@ -1723,9 +1723,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-en-1065-class-bd-386-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-en-1065-class-bd-386-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-en-1065-class-bd-386-2.jpg"
+   "/img/products/props-en-1065-class-bd-386-0.jpg",
+   "/img/products/props-en-1065-class-bd-386-1.jpg",
+   "/img/products/props-en-1065-class-bd-386-2.jpg"
   ]
  },
  {
@@ -1751,8 +1751,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/push-pull-props-136-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/push-pull-props-136-1.jpg"
+   "/img/products/push-pull-props-136-0.jpg",
+   "/img/products/push-pull-props-136-1.jpg"
   ]
  },
  {
@@ -1790,7 +1790,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/light-duty-props-10-kn-135-0.jpg"
+   "/img/products/light-duty-props-10-kn-135-0.jpg"
   ]
  },
  {
@@ -1812,10 +1812,10 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/reinforced-props-134-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/reinforced-props-134-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/reinforced-props-134-2.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/reinforced-props-134-3.jpg"
+   "/img/products/reinforced-props-134-0.jpg",
+   "/img/products/reinforced-props-134-1.jpg",
+   "/img/products/reinforced-props-134-2.jpg",
+   "/img/products/reinforced-props-134-3.jpg"
   ]
  },
  {
@@ -1849,7 +1849,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/standard-prop-class-b-35-0.jpg"
+   "/img/products/standard-prop-class-b-35-0.jpg"
   ]
  },
  {
@@ -1871,8 +1871,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-heavy-duty-special-size-34-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-heavy-duty-special-size-34-1.jpg"
+   "/img/products/props-heavy-duty-special-size-34-0.jpg",
+   "/img/products/props-heavy-duty-special-size-34-1.jpg"
   ]
  },
  {
@@ -1914,9 +1914,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-load-tested-for-20-kn-33-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-load-tested-for-20-kn-33-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/props-load-tested-for-20-kn-33-2.jpg"
+   "/img/products/props-load-tested-for-20-kn-33-0.jpg",
+   "/img/products/props-load-tested-for-20-kn-33-1.jpg",
+   "/img/products/props-load-tested-for-20-kn-33-2.jpg"
   ]
  },
  {
@@ -1929,8 +1929,8 @@
   "description": "High Tensile Tube 48x6mm -S355 Disclaimer:These are customer specific design for reference only",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/high-tensile-tube-393-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/high-tensile-tube-393-1.jpg"
+   "/img/products/high-tensile-tube-393-0.jpg",
+   "/img/products/high-tensile-tube-393-1.jpg"
   ]
  },
  {
@@ -1952,7 +1952,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-jack-146-0.jpg"
+   "/img/products/fork-head-jack-146-0.jpg"
   ]
  },
  {
@@ -1974,7 +1974,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-head-jack-145-0.jpg"
+   "/img/products/u-head-jack-145-0.jpg"
   ]
  },
  {
@@ -1987,7 +1987,7 @@
   "description": "Finish - Hot Dip Galvanized / EZP",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/high-tensile-material-144-0.jpg"
+   "/img/products/high-tensile-material-144-0.jpg"
   ]
  },
  {
@@ -2009,7 +2009,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/beam-head-143-0.jpg"
+   "/img/products/beam-head-143-0.jpg"
   ]
  },
  {
@@ -2027,7 +2027,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-u-strip-142-0.jpg"
+   "/img/products/fork-head-u-strip-142-0.jpg"
   ]
  },
  {
@@ -2045,7 +2045,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-hole-141-0.jpg"
+   "/img/products/fork-head-hole-141-0.jpg"
   ]
  },
  {
@@ -2063,7 +2063,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-slotted-140-0.jpg"
+   "/img/products/fork-head-slotted-140-0.jpg"
   ]
  },
  {
@@ -2081,8 +2081,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-rod-holes-in-plate-139-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-rod-holes-in-plate-139-1.jpg"
+   "/img/products/fork-head-rod-holes-in-plate-139-0.jpg",
+   "/img/products/fork-head-rod-holes-in-plate-139-1.jpg"
   ]
  },
  {
@@ -2100,7 +2100,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-rod-138-0.jpg"
+   "/img/products/fork-head-rod-138-0.jpg"
   ]
  },
  {
@@ -2118,7 +2118,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fork-head-light-duty-137-0.jpg"
+   "/img/products/fork-head-light-duty-137-0.jpg"
   ]
  },
  {
@@ -2140,7 +2140,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-fixed-type-153-0.jpg"
+   "/img/products/tripod-fixed-type-153-0.jpg"
   ]
  },
  {
@@ -2162,7 +2162,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-universal-model-152-0.jpg"
+   "/img/products/tripod-universal-model-152-0.jpg"
   ]
  },
  {
@@ -2188,7 +2188,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-square-tube-medium-duty-151-0.jpg"
+   "/img/products/tripod-square-tube-medium-duty-151-0.jpg"
   ]
  },
  {
@@ -2210,7 +2210,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-heavy-duty-150-0.jpg"
+   "/img/products/tripod-heavy-duty-150-0.jpg"
   ]
  },
  {
@@ -2236,7 +2236,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-medium-duty-149-0.jpg"
+   "/img/products/tripod-medium-duty-149-0.jpg"
   ]
  },
  {
@@ -2258,7 +2258,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-27light-duty-148-0.jpg"
+   "/img/products/tripod-27light-duty-148-0.jpg"
   ]
  },
  {
@@ -2280,7 +2280,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tripod-25-light-duty-147-0.jpg"
+   "/img/products/tripod-25-light-duty-147-0.jpg"
   ]
  },
  {
@@ -2298,7 +2298,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tekko-clip-forged-173-0.jpg"
+   "/img/products/tekko-clip-forged-173-0.jpg"
   ]
  },
  {
@@ -2316,7 +2316,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wedge-clamp-casted-172-0.jpg"
+   "/img/products/wedge-clamp-casted-172-0.jpg"
   ]
  },
  {
@@ -2338,7 +2338,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/connecting-pin-16mm-with-r-clip-171-0.jpg"
+   "/img/products/connecting-pin-16mm-with-r-clip-171-0.jpg"
   ]
  },
  {
@@ -2360,7 +2360,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hexagonal-nut-or-nut-with-locking-pin-170-0.jpg"
+   "/img/products/hexagonal-nut-or-nut-with-locking-pin-170-0.jpg"
   ]
  },
  {
@@ -2378,7 +2378,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/formwork-panel-wedge-clamp-02-169-0.jpg"
+   "/img/products/formwork-panel-wedge-clamp-02-169-0.jpg"
   ]
  },
  {
@@ -2396,8 +2396,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/formwork-panel-wedge-clamp-01-168-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/formwork-panel-wedge-clamp-01-168-1.jpg"
+   "/img/products/formwork-panel-wedge-clamp-01-168-0.jpg",
+   "/img/products/formwork-panel-wedge-clamp-01-168-1.jpg"
   ]
  },
  {
@@ -2423,8 +2423,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/waller-plate-167-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/waller-plate-167-1.jpg"
+   "/img/products/waller-plate-167-0.jpg",
+   "/img/products/waller-plate-167-1.jpg"
   ]
  },
  {
@@ -2454,7 +2454,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tie-rod-166-0.jpg"
+   "/img/products/tie-rod-166-0.jpg"
   ]
  },
  {
@@ -2480,7 +2480,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/anchor-nut-100mm-forged-165-0.jpg"
+   "/img/products/anchor-nut-100mm-forged-165-0.jpg"
   ]
  },
  {
@@ -2506,7 +2506,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/three-wing-nut-forged-164-0.jpg"
+   "/img/products/three-wing-nut-forged-164-0.jpg"
   ]
  },
  {
@@ -2528,7 +2528,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/water-barrier-with-disc-163-0.jpg"
+   "/img/products/water-barrier-with-disc-163-0.jpg"
   ]
  },
  {
@@ -2554,7 +2554,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-wing-nut-with-combination-plate-100mm-casted-162-0.jpg"
+   "/img/products/swivel-wing-nut-with-combination-plate-100mm-casted-162-0.jpg"
   ]
  },
  {
@@ -2584,7 +2584,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-wing-nut-with-combination-plate-forged-161-0.jpg"
+   "/img/products/swivel-wing-nut-with-combination-plate-forged-161-0.jpg"
   ]
  },
  {
@@ -2614,7 +2614,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-wing-nut-with-combination-plate-casted-160-0.jpg"
+   "/img/products/swivel-wing-nut-with-combination-plate-casted-160-0.jpg"
   ]
  },
  {
@@ -2644,7 +2644,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/three-wing-anchor-nut-forged-159-0.jpg"
+   "/img/products/three-wing-anchor-nut-forged-159-0.jpg"
   ]
  },
  {
@@ -2674,7 +2674,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/three-wing-anchor-nut-casted-158-0.jpg"
+   "/img/products/three-wing-anchor-nut-casted-158-0.jpg"
   ]
  },
  {
@@ -2700,7 +2700,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/three-wing-anchor-nut-70mm-casted-157-0.jpg"
+   "/img/products/three-wing-anchor-nut-70mm-casted-157-0.jpg"
   ]
  },
  {
@@ -2726,7 +2726,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/two-wing-anchor-nut-100mm-casted-156-0.jpg"
+   "/img/products/two-wing-anchor-nut-100mm-casted-156-0.jpg"
   ]
  },
  {
@@ -2752,7 +2752,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/two-wing-nut-forged-155-0.jpg"
+   "/img/products/two-wing-nut-forged-155-0.jpg"
   ]
  },
  {
@@ -2778,7 +2778,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wing-nut-forged-154-0.jpg"
+   "/img/products/wing-nut-forged-154-0.jpg"
   ]
  },
  {
@@ -2791,7 +2791,7 @@
   "description": "Single Anchor: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-anchor-402-0.jpg"
+   "/img/products/single-anchor-402-0.jpg"
   ]
  },
  {
@@ -2804,7 +2804,7 @@
   "description": "Anchor Clamp Bend: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/anchor-clamp-bend-401-0.jpg"
+   "/img/products/anchor-clamp-bend-401-0.jpg"
   ]
  },
  {
@@ -2817,7 +2817,7 @@
   "description": "Wedge Clamp Casted: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wedge-clamp-casted-400-0.jpg"
+   "/img/products/wedge-clamp-casted-400-0.jpg"
   ]
  },
  {
@@ -2830,7 +2830,7 @@
   "description": "Anchor Foot: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/anchor-foot-399-0.jpg"
+   "/img/products/anchor-foot-399-0.jpg"
   ]
  },
  {
@@ -2843,7 +2843,7 @@
   "description": "Anchor Footdw 15: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/anchor-footdw-15-398-0.jpg"
+   "/img/products/anchor-footdw-15-398-0.jpg"
   ]
  },
  {
@@ -2856,7 +2856,7 @@
   "description": "Steel Cone: Formwork Clamps and Panels component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/steel-cone-397-0.jpg"
+   "/img/products/steel-cone-397-0.jpg"
   ]
  },
  {
@@ -2878,7 +2878,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/beam-vice-179-0.jpg"
+   "/img/products/beam-vice-179-0.jpg"
   ]
  },
  {
@@ -2900,7 +2900,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/h-panel-178-0.jpg"
+   "/img/products/h-panel-178-0.jpg"
   ]
  },
  {
@@ -2922,7 +2922,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/console-177-0.jpg"
+   "/img/products/console-177-0.jpg"
   ]
  },
  {
@@ -2948,7 +2948,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/beam-clamp-slotted-176-0.jpg"
+   "/img/products/beam-clamp-slotted-176-0.jpg"
   ]
  },
  {
@@ -2974,7 +2974,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/extension-assemblies-175-0.jpg"
+   "/img/products/extension-assemblies-175-0.jpg"
   ]
  },
  {
@@ -3000,7 +3000,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/builder-clamp-174-0.jpg"
+   "/img/products/builder-clamp-174-0.jpg"
   ]
  },
  {
@@ -3026,7 +3026,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-403-0.jpg"
+   "/img/products/half-coupler-403-0.jpg"
   ]
  },
  {
@@ -3048,7 +3048,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/rosette-coupler-197-0.jpg"
+   "/img/products/rosette-coupler-197-0.jpg"
   ]
  },
  {
@@ -3070,7 +3070,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pin-for-sleeve-coupler-196-0.jpg"
+   "/img/products/pin-for-sleeve-coupler-196-0.jpg"
   ]
  },
  {
@@ -3096,7 +3096,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-welded-tube-195-0.jpg"
+   "/img/products/half-coupler-with-welded-tube-195-0.jpg"
   ]
  },
  {
@@ -3122,7 +3122,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/coupler-with-welded-strip-194-0.jpg"
+   "/img/products/coupler-with-welded-strip-194-0.jpg"
   ]
  },
  {
@@ -3148,7 +3148,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sleeve-coupler-forged-193-0.jpg"
+   "/img/products/sleeve-coupler-forged-193-0.jpg"
   ]
  },
  {
@@ -3170,7 +3170,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/girder-coupler-192-0.jpg"
+   "/img/products/girder-coupler-192-0.jpg"
   ]
  },
  {
@@ -3196,7 +3196,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-welded-v-strip-191-0.jpg"
+   "/img/products/half-coupler-with-welded-v-strip-191-0.jpg"
   ]
  },
  {
@@ -3222,7 +3222,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-welded-rod-190-0.jpg"
+   "/img/products/half-coupler-with-welded-rod-190-0.jpg"
   ]
  },
  {
@@ -3248,7 +3248,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-l-strip-long-short-189-0.jpg"
+   "/img/products/half-coupler-with-l-strip-long-short-189-0.jpg"
   ]
  },
  {
@@ -3274,7 +3274,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-welded-l-rod-188-0.jpg"
+   "/img/products/half-coupler-with-welded-l-rod-188-0.jpg"
   ]
  },
  {
@@ -3300,7 +3300,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-assembled-187-0.jpg"
+   "/img/products/half-coupler-assembled-187-0.jpg"
   ]
  },
  {
@@ -3326,7 +3326,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-unassembled-186-0.jpg"
+   "/img/products/half-coupler-unassembled-186-0.jpg"
   ]
  },
  {
@@ -3352,7 +3352,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-with-brace-lock-185-0.jpg"
+   "/img/products/half-coupler-with-brace-lock-185-0.jpg"
   ]
  },
  {
@@ -3378,7 +3378,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-coupler-183-0.jpg"
+   "/img/products/swivel-coupler-183-0.jpg"
   ]
  },
  {
@@ -3404,7 +3404,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/right-angle-coupler-182-0.jpg"
+   "/img/products/right-angle-coupler-182-0.jpg"
   ]
  },
  {
@@ -3430,8 +3430,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/german-swivel-coupler-181-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/german-swivel-coupler-181-1.jpg"
+   "/img/products/german-swivel-coupler-181-0.jpg",
+   "/img/products/german-swivel-coupler-181-1.jpg"
   ]
  },
  {
@@ -3457,8 +3457,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/german-right-angle-coupler-180-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/german-right-angle-coupler-180-1.jpg"
+   "/img/products/german-right-angle-coupler-180-0.jpg",
+   "/img/products/german-right-angle-coupler-180-1.jpg"
   ]
  },
  {
@@ -3471,7 +3471,7 @@
   "description": "M 12/M 14(8.8 grade) Hot Dip Galvanized Fast Moving Thread",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/nut-sw-22-395-0.jpg"
+   "/img/products/nut-sw-22-395-0.jpg"
   ]
  },
  {
@@ -3484,7 +3484,7 @@
   "description": "M12/M14 (8.8 grade)",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/nut-sw19-394-0.jpg"
+   "/img/products/nut-sw19-394-0.jpg"
   ]
  },
  {
@@ -3510,7 +3510,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/galvanized-tubes-206-0.jpg"
+   "/img/products/galvanized-tubes-206-0.jpg"
   ]
  },
  {
@@ -3536,7 +3536,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fence-coupler-allen-key-bolt-m-12-205-0.jpg"
+   "/img/products/fence-coupler-allen-key-bolt-m-12-205-0.jpg"
   ]
  },
  {
@@ -3562,7 +3562,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fence-coupler-carriage-bolt-m12-204-0.jpg"
+   "/img/products/fence-coupler-carriage-bolt-m12-204-0.jpg"
   ]
  },
  {
@@ -3588,7 +3588,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/half-coupler-203-0.jpg"
+   "/img/products/half-coupler-203-0.jpg"
   ]
  },
  {
@@ -3614,7 +3614,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-coupler-202-0.jpg"
+   "/img/products/swivel-coupler-202-0.jpg"
   ]
  },
  {
@@ -3640,7 +3640,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/right-angle-coupler-201-0.jpg"
+   "/img/products/right-angle-coupler-201-0.jpg"
   ]
  },
  {
@@ -3666,7 +3666,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/girder-coupler-200-0.jpg"
+   "/img/products/girder-coupler-200-0.jpg"
   ]
  },
  {
@@ -3692,7 +3692,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/swivel-coupler-199-0.jpg"
+   "/img/products/swivel-coupler-199-0.jpg"
   ]
  },
  {
@@ -3718,7 +3718,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/right-angle-coupler-198-0.jpg"
+   "/img/products/right-angle-coupler-198-0.jpg"
   ]
  },
  {
@@ -3740,7 +3740,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/crow-bars-220-0.jpg"
+   "/img/products/crow-bars-220-0.jpg"
   ]
  },
  {
@@ -3762,7 +3762,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-railing-clamp-plank-heavy-duty-219-0.jpg"
+   "/img/products/adjustable-railing-clamp-plank-heavy-duty-219-0.jpg"
   ]
  },
  {
@@ -3784,8 +3784,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-railing-clamp-planks-217-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-railing-clamp-planks-217-1.jpg"
+   "/img/products/adjustable-railing-clamp-planks-217-0.jpg",
+   "/img/products/adjustable-railing-clamp-planks-217-1.jpg"
   ]
  },
  {
@@ -3807,7 +3807,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/combination-railing-post-tubes-planks-216-0.jpg"
+   "/img/products/combination-railing-post-tubes-planks-216-0.jpg"
   ]
  },
  {
@@ -3829,7 +3829,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-railing-clamp-tubes-215-0.jpg"
+   "/img/products/adjustable-railing-clamp-tubes-215-0.jpg"
   ]
  },
  {
@@ -3851,7 +3851,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/galvanized-tubes-33-7x2-5-214-0.jpg"
+   "/img/products/galvanized-tubes-33-7x2-5-214-0.jpg"
   ]
  },
  {
@@ -3864,7 +3864,7 @@
   "description": "Guard Rail - Special Type: Scaffold Guard Rails component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-special-type-213-0.jpg"
+   "/img/products/guard-rail-special-type-213-0.jpg"
   ]
  },
  {
@@ -3890,7 +3890,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/inserted-railing-post-planks-212-0.jpg"
+   "/img/products/inserted-railing-post-planks-212-0.jpg"
   ]
  },
  {
@@ -3916,7 +3916,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-planks-3-hooks-211-0.jpg"
+   "/img/products/guard-rail-planks-3-hooks-211-0.jpg"
   ]
  },
  {
@@ -3942,7 +3942,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-planks-210-0.jpg"
+   "/img/products/guard-rail-planks-210-0.jpg"
   ]
  },
  {
@@ -3968,7 +3968,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-tubes-double-block-209-0.jpg"
+   "/img/products/guard-rail-tubes-double-block-209-0.jpg"
   ]
  },
  {
@@ -3994,7 +3994,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-tubes-3-block-208-0.jpg"
+   "/img/products/guard-rail-tubes-3-block-208-0.jpg"
   ]
  },
  {
@@ -4020,7 +4020,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-block-tubes-207-0.jpg"
+   "/img/products/guard-rail-block-tubes-207-0.jpg"
   ]
  },
  {
@@ -4046,7 +4046,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/crowd-control-barrier-224-0.jpg"
+   "/img/products/crowd-control-barrier-224-0.jpg"
   ]
  },
  {
@@ -4072,7 +4072,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/trestle-223-0.jpg"
+   "/img/products/trestle-223-0.jpg"
   ]
  },
  {
@@ -4098,7 +4098,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/road-barrier-222-0.jpg"
+   "/img/products/road-barrier-222-0.jpg"
   ]
  },
  {
@@ -4120,8 +4120,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/trestle-light-duty-model-221-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/trestle-light-duty-model-221-1.jpg"
+   "/img/products/trestle-light-duty-model-221-0.jpg",
+   "/img/products/trestle-light-duty-model-221-1.jpg"
   ]
  },
  {
@@ -4134,7 +4134,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/euro-plettac-frame-2m-412-0.jpg"
+   "/img/products/euro-plettac-frame-2m-412-0.jpg"
   ]
  },
  {
@@ -4147,7 +4147,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/euro-plettac-frame-2m-411-0.jpg"
+   "/img/products/euro-plettac-frame-2m-411-0.jpg"
   ]
  },
  {
@@ -4189,7 +4189,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/euro-assembly-frame-410-0.jpg"
+   "/img/products/euro-assembly-frame-410-0.jpg"
   ]
  },
  {
@@ -4202,7 +4202,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-front-guard-rail-409-0.jpg"
+   "/img/products/double-front-guard-rail-409-0.jpg"
   ]
  },
  {
@@ -4215,7 +4215,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-rail-support-408-0.jpg"
+   "/img/products/guard-rail-support-408-0.jpg"
   ]
  },
  {
@@ -4228,7 +4228,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bracket-407-0.jpg"
+   "/img/products/bracket-407-0.jpg"
   ]
  },
  {
@@ -4241,7 +4241,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-guard-rail-406-0.jpg"
+   "/img/products/double-guard-rail-406-0.jpg"
   ]
  },
  {
@@ -4254,7 +4254,7 @@
   "description": "Finish-Hot dip galvanized as per DIN EN 1461",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/euro-end-guard-rail-support-405-0.jpg"
+   "/img/products/euro-end-guard-rail-support-405-0.jpg"
   ]
  },
  {
@@ -4267,7 +4267,7 @@
   "description": "Access Scaffold Euro Frame: Euro Frame Scaffolding component in the Scaffolding and Formworks range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/access-scaffold-euro-frame-404-0.jpg"
+   "/img/products/access-scaffold-euro-frame-404-0.jpg"
   ]
  },
  {
@@ -4285,7 +4285,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-with-plate-290-0.jpg"
+   "/img/products/post-with-plate-290-0.jpg"
   ]
  },
  {
@@ -4298,7 +4298,7 @@
   "description": "TUBE WALL SUPPORT CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tube-wall-support-clamp-86-0.jpg"
+   "/img/products/tube-wall-support-clamp-86-0.jpg"
   ]
  },
  {
@@ -4311,7 +4311,7 @@
   "description": "PIPE CLAMP 2 ½ \" ROTATION PART 2: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-rotation-part-2-85-0.jpg"
+   "/img/products/pipe-clamp-2-rotation-part-2-85-0.jpg"
   ]
  },
  {
@@ -4324,7 +4324,7 @@
   "description": "PIPE CLAMP 2 ½ \" ROTATION PART 1: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-rotation-part-1-84-0.jpg"
+   "/img/products/pipe-clamp-2-rotation-part-1-84-0.jpg"
   ]
  },
  {
@@ -4337,7 +4337,7 @@
   "description": "PIPE CLAMP 2 ½ \" WITH 4 TABS: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-with-4-tabs-83-0.jpg"
+   "/img/products/pipe-clamp-2-with-4-tabs-83-0.jpg"
   ]
  },
  {
@@ -4350,7 +4350,7 @@
   "description": "PIPE CLAMP 2 ½ \" WITH 3 TABS: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-with-3-tabs-82-0.jpg"
+   "/img/products/pipe-clamp-2-with-3-tabs-82-0.jpg"
   ]
  },
  {
@@ -4363,7 +4363,7 @@
   "description": "PIPE CLAMP 2 ½ \" WITH 2 TABS 180°: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-with-2-tabs-180-81-0.jpg"
+   "/img/products/pipe-clamp-2-with-2-tabs-180-81-0.jpg"
   ]
  },
  {
@@ -4376,7 +4376,7 @@
   "description": "PIPE CLAMP 2 ½ \" WITH 2 TABS 90°: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-with-2-tabs-90-80-0.jpg"
+   "/img/products/pipe-clamp-2-with-2-tabs-90-80-0.jpg"
   ]
  },
  {
@@ -4389,7 +4389,7 @@
   "description": "PIPE CLAMP 2 ½ \" WITH 1 TABS: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pipe-clamp-2-with-1-tabs-79-0.jpg"
+   "/img/products/pipe-clamp-2-with-1-tabs-79-0.jpg"
   ]
  },
  {
@@ -4402,7 +4402,7 @@
   "description": "HEAD LOCK HANDLE PLATE TYPE: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/head-lock-handle-plate-type-78-0.jpg"
+   "/img/products/head-lock-handle-plate-type-78-0.jpg"
   ]
  },
  {
@@ -4415,7 +4415,7 @@
   "description": "HEAD LOCK HANDLE TUBE TYPE: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/head-lock-handle-tube-type-77-0.jpg"
+   "/img/products/head-lock-handle-tube-type-77-0.jpg"
   ]
  },
  {
@@ -4428,7 +4428,7 @@
   "description": "POST CLAMP WITH 2 TABS AND CHAIN: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-clamp-with-2-tabs-and-chain-76-0.jpg"
+   "/img/products/post-clamp-with-2-tabs-and-chain-76-0.jpg"
   ]
  },
  {
@@ -4441,7 +4441,7 @@
   "description": "POST MOUNT BOTTOM BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-mount-bottom-bracket-75-0.jpg"
+   "/img/products/post-mount-bottom-bracket-75-0.jpg"
   ]
  },
  {
@@ -4454,7 +4454,7 @@
   "description": "POST MOUNT FLAT TOP BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-mount-flat-top-bracket-74-0.jpg"
+   "/img/products/post-mount-flat-top-bracket-74-0.jpg"
   ]
  },
  {
@@ -4467,7 +4467,7 @@
   "description": "POST MOUNT ANGLE TOP BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-mount-angle-top-bracket-73-0.jpg"
+   "/img/products/post-mount-angle-top-bracket-73-0.jpg"
   ]
  },
  {
@@ -4480,8 +4480,8 @@
   "description": "WALL MOUNT FLAT TOP BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-mount-flat-top-bracket-72-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-mount-flat-top-bracket-72-1.jpg"
+   "/img/products/wall-mount-flat-top-bracket-72-0.jpg",
+   "/img/products/wall-mount-flat-top-bracket-72-1.jpg"
   ]
  },
  {
@@ -4494,7 +4494,7 @@
   "description": "WALL MOUNT BOTTOM BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-mount-bottom-bracket-71-0.jpg"
+   "/img/products/wall-mount-bottom-bracket-71-0.jpg"
   ]
  },
  {
@@ -4507,7 +4507,7 @@
   "description": "WALL MOUNT ANGLE TOP BRACKET: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-mount-angle-top-bracket-70-0.jpg"
+   "/img/products/wall-mount-angle-top-bracket-70-0.jpg"
   ]
  },
  {
@@ -4520,7 +4520,7 @@
   "description": "TUBE CLAMP WITH PLATE: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tube-clamp-with-plate-69-0.jpg"
+   "/img/products/tube-clamp-with-plate-69-0.jpg"
   ]
  },
  {
@@ -4533,7 +4533,7 @@
   "description": "L POST CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-post-clamp-68-0.jpg"
+   "/img/products/l-post-clamp-68-0.jpg"
   ]
  },
  {
@@ -4546,7 +4546,7 @@
   "description": "U-BOLTS: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-bolts-67-0.jpg"
+   "/img/products/u-bolts-67-0.jpg"
   ]
  },
  {
@@ -4559,7 +4559,7 @@
   "description": "TUBE CONNECTOR: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tube-connector-66-0.jpg"
+   "/img/products/tube-connector-66-0.jpg"
   ]
  },
  {
@@ -4572,7 +4572,7 @@
   "description": "TUBE PLATE CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/tube-plate-clamp-65-0.jpg"
+   "/img/products/tube-plate-clamp-65-0.jpg"
   ]
  },
  {
@@ -4585,7 +4585,7 @@
   "description": "BRISKET BOARD PLATE: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/brisket-board-plate-64-0.jpg"
+   "/img/products/brisket-board-plate-64-0.jpg"
   ]
  },
  {
@@ -4598,7 +4598,7 @@
   "description": "BRISKET BOARD CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/brisket-board-clamp-63-0.jpg"
+   "/img/products/brisket-board-clamp-63-0.jpg"
   ]
  },
  {
@@ -4611,7 +4611,7 @@
   "description": "DOUBLE MOUNTING BRACKET FOR CUBICLE DIVIDER: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-mounting-bracket-for-cubicle-divider-62-0.jpg"
+   "/img/products/double-mounting-bracket-for-cubicle-divider-62-0.jpg"
   ]
  },
  {
@@ -4624,7 +4624,7 @@
   "description": "SINGLE MOUNTING BRACKET FOR CUBICLE DIVIDER: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-mounting-bracket-for-cubicle-divider-61-0.jpg"
+   "/img/products/single-mounting-bracket-for-cubicle-divider-61-0.jpg"
   ]
  },
  {
@@ -4637,7 +4637,7 @@
   "description": "SQ PIPE U-BOLT CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sq-pipe-u-bolt-clamp-60-0.jpg"
+   "/img/products/sq-pipe-u-bolt-clamp-60-0.jpg"
   ]
  },
  {
@@ -4650,7 +4650,7 @@
   "description": "NECK RAIL SUPPORT CLAMP: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/neck-rail-support-clamp-59-0.jpg"
+   "/img/products/neck-rail-support-clamp-59-0.jpg"
   ]
  },
  {
@@ -4663,7 +4663,7 @@
   "description": "U BOLT CLAMP WITH 2 SLOTS AND 2 HOLES: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-bolt-clamp-with-2-slots-and-2-holes-58-0.jpg"
+   "/img/products/u-bolt-clamp-with-2-slots-and-2-holes-58-0.jpg"
   ]
  },
  {
@@ -4676,7 +4676,7 @@
   "description": "Neck Rail Clamp With HEX BOLTS: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/neck-rail-clamp-with-hex-bolts-57-0.jpg"
+   "/img/products/neck-rail-clamp-with-hex-bolts-57-0.jpg"
   ]
  },
  {
@@ -4689,7 +4689,7 @@
   "description": "Neck Rail Clamp With 12 Holes: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/neck-rail-clamp-with-12-holes-56-0.jpg"
+   "/img/products/neck-rail-clamp-with-12-holes-56-0.jpg"
   ]
  },
  {
@@ -4702,7 +4702,7 @@
   "description": "Neck Rail Clamp With Long Plate: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/neck-rail-clamp-with-long-plate-55-0.jpg"
+   "/img/products/neck-rail-clamp-with-long-plate-55-0.jpg"
   ]
  },
  {
@@ -4715,7 +4715,7 @@
   "description": "Double Head Clamp: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-head-clamp-54-0.jpg"
+   "/img/products/double-head-clamp-54-0.jpg"
   ]
  },
  {
@@ -4728,7 +4728,7 @@
   "description": "Double Head Clamp: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-head-clamp-53-0.jpg"
+   "/img/products/double-head-clamp-53-0.jpg"
   ]
  },
  {
@@ -4752,7 +4752,7 @@
   "description": "Single Head Clamp: Cattle Housing Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/single-head-clamp-51-0.jpg"
+   "/img/products/single-head-clamp-51-0.jpg"
   ]
  },
  {
@@ -4770,7 +4770,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/calf-panel-50-0.jpg"
+   "/img/products/calf-panel-50-0.jpg"
   ]
  },
  {
@@ -4788,7 +4788,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/treatment-shut-49-0.jpg"
+   "/img/products/treatment-shut-49-0.jpg"
   ]
  },
  {
@@ -4810,7 +4810,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/calf-feed-trough-48-0.jpg"
+   "/img/products/calf-feed-trough-48-0.jpg"
   ]
  },
  {
@@ -4836,7 +4836,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/water-trough-47-0.jpg"
+   "/img/products/water-trough-47-0.jpg"
   ]
  },
  {
@@ -4862,7 +4862,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/round-feeders-for-cows-46-0.jpg"
+   "/img/products/round-feeders-for-cows-46-0.jpg"
   ]
  },
  {
@@ -4884,7 +4884,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/training-headlocks-45-0.jpg"
+   "/img/products/training-headlocks-45-0.jpg"
   ]
  },
  {
@@ -4906,9 +4906,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hiefer-safety-headlocks-44-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hiefer-safety-headlocks-44-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hiefer-safety-headlocks-44-2.jpg"
+   "/img/products/hiefer-safety-headlocks-44-0.jpg",
+   "/img/products/hiefer-safety-headlocks-44-1.jpg",
+   "/img/products/hiefer-safety-headlocks-44-2.jpg"
   ]
  },
  {
@@ -4954,7 +4954,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/diagonal-barriers-42-0.jpg"
+   "/img/products/diagonal-barriers-42-0.jpg"
   ]
  },
  {
@@ -4988,7 +4988,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/self-lock-safety-barriers-41-0.jpg"
+   "/img/products/self-lock-safety-barriers-41-0.jpg"
   ]
  },
  {
@@ -5022,10 +5022,10 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/giant-feed-headlock-40-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/giant-feed-headlock-40-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/giant-feed-headlock-40-2.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/giant-feed-headlock-40-3.jpg"
+   "/img/products/giant-feed-headlock-40-0.jpg",
+   "/img/products/giant-feed-headlock-40-1.jpg",
+   "/img/products/giant-feed-headlock-40-2.jpg",
+   "/img/products/giant-feed-headlock-40-3.jpg"
   ]
  },
  {
@@ -5055,8 +5055,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/multipurpose-cubicle-divider-39-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/multipurpose-cubicle-divider-39-1.jpg"
+   "/img/products/multipurpose-cubicle-divider-39-0.jpg",
+   "/img/products/multipurpose-cubicle-divider-39-1.jpg"
   ]
  },
  {
@@ -5086,8 +5086,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/comfot-cubicle-divider-38-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/comfot-cubicle-divider-38-1.jpg"
+   "/img/products/comfot-cubicle-divider-38-0.jpg",
+   "/img/products/comfot-cubicle-divider-38-1.jpg"
   ]
  },
  {
@@ -5117,8 +5117,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pasture-cubicle-divider-37-0.png",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pasture-cubicle-divider-37-1.jpg"
+   "/img/products/pasture-cubicle-divider-37-0.png",
+   "/img/products/pasture-cubicle-divider-37-1.jpg"
   ]
  },
  {
@@ -5148,9 +5148,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/multipurpose-plus-cubicle-divider-36-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/multipurpose-plus-cubicle-divider-36-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/multipurpose-plus-cubicle-divider-36-2.jpg"
+   "/img/products/multipurpose-plus-cubicle-divider-36-0.jpg",
+   "/img/products/multipurpose-plus-cubicle-divider-36-1.jpg",
+   "/img/products/multipurpose-plus-cubicle-divider-36-2.jpg"
   ]
  },
  {
@@ -5172,7 +5172,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-trough-132-0.jpg"
+   "/img/products/ground-trough-132-0.jpg"
   ]
  },
  {
@@ -5194,7 +5194,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hang-on-trough-131-0.jpg"
+   "/img/products/hang-on-trough-131-0.jpg"
   ]
  },
  {
@@ -5207,7 +5207,7 @@
   "description": "Joiner: Sheep Hurdles and Panels component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joiner-99-0.jpg"
+   "/img/products/joiner-99-0.jpg"
   ]
  },
  {
@@ -5220,7 +5220,7 @@
   "description": "Non Return Gate: Sheep Hurdles and Panels component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/non-return-gate-98-0.jpg"
+   "/img/products/non-return-gate-98-0.jpg"
   ]
  },
  {
@@ -5233,7 +5233,7 @@
   "description": "Drafting Gate: Sheep Hurdles and Panels component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/drafting-gate-97-0.jpg"
+   "/img/products/drafting-gate-97-0.jpg"
   ]
  },
  {
@@ -5246,7 +5246,7 @@
   "description": "Sheep Race: Sheep Hurdles and Panels component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sheep-race-96-0.jpg"
+   "/img/products/sheep-race-96-0.jpg"
   ]
  },
  {
@@ -5272,7 +5272,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/weighing-scales-95-0.jpg"
+   "/img/products/weighing-scales-95-0.jpg"
   ]
  },
  {
@@ -5298,7 +5298,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/round-feeders-94-0.jpg"
+   "/img/products/round-feeders-94-0.jpg"
   ]
  },
  {
@@ -5331,7 +5331,7 @@
   "description": "Bucket Holder: Sheep Hurdles and Panels component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bucket-holder-92-0.jpg"
+   "/img/products/bucket-holder-92-0.jpg"
   ]
  },
  {
@@ -5353,7 +5353,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hang-on-basket-91-0.jpg"
+   "/img/products/hang-on-basket-91-0.jpg"
   ]
  },
  {
@@ -5387,7 +5387,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/double-side-hay-basket-90-0.jpg"
+   "/img/products/double-side-hay-basket-90-0.jpg"
   ]
  },
  {
@@ -5409,7 +5409,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sheep-headlocks-89-0.jpg"
+   "/img/products/sheep-headlocks-89-0.jpg"
   ]
  },
  {
@@ -5439,7 +5439,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sheep-panels-pin-drop-88-0.jpg"
+   "/img/products/sheep-panels-pin-drop-88-0.jpg"
   ]
  },
  {
@@ -5465,7 +5465,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/sheep-panels-interlocking-87-0.jpg"
+   "/img/products/sheep-panels-interlocking-87-0.jpg"
   ]
  },
  {
@@ -5478,8 +5478,8 @@
   "description": "5 Bar Full Mesh: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-full-mesh-306-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-full-mesh-306-1.jpg"
+   "/img/products/5-bar-full-mesh-306-0.jpg",
+   "/img/products/5-bar-full-mesh-306-1.jpg"
   ]
  },
  {
@@ -5492,8 +5492,8 @@
   "description": "5 Bar Half Mesh Field Gates: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-half-mesh-field-gates-305-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-half-mesh-field-gates-305-1.jpg"
+   "/img/products/5-bar-half-mesh-field-gates-305-0.jpg",
+   "/img/products/5-bar-half-mesh-field-gates-305-1.jpg"
   ]
  },
  {
@@ -5506,7 +5506,7 @@
   "description": "7 Bar National Gates: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/7-bar-national-gates-292-0.jpg"
+   "/img/products/7-bar-national-gates-292-0.jpg"
   ]
  },
  {
@@ -5519,7 +5519,7 @@
   "description": "Imperial Gates: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/imperial-gates-291-0.jpg"
+   "/img/products/imperial-gates-291-0.jpg"
   ]
  },
  {
@@ -5545,7 +5545,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/gate-posts-289-0.jpg"
+   "/img/products/gate-posts-289-0.jpg"
   ]
  },
  {
@@ -5571,7 +5571,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/gate-posts-133-0.jpg"
+   "/img/products/gate-posts-133-0.jpg"
   ]
  },
  {
@@ -5584,7 +5584,7 @@
   "description": "Wall Gate Hanger Without Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-gate-hanger-without-washer-118-0.jpg"
+   "/img/products/wall-gate-hanger-without-washer-118-0.jpg"
   ]
  },
  {
@@ -5597,7 +5597,7 @@
   "description": "Wall Gate Hanger With Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/wall-gate-hanger-with-washer-117-0.jpg"
+   "/img/products/wall-gate-hanger-with-washer-117-0.jpg"
   ]
  },
  {
@@ -5610,7 +5610,7 @@
   "description": "Post Gate Hanger Without Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-gate-hanger-without-washer-116-0.jpg"
+   "/img/products/post-gate-hanger-without-washer-116-0.jpg"
   ]
  },
  {
@@ -5623,7 +5623,7 @@
   "description": "Post Gate Hanger With Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-gate-hanger-with-washer-115-0.jpg"
+   "/img/products/post-gate-hanger-with-washer-115-0.jpg"
   ]
  },
  {
@@ -5636,7 +5636,7 @@
   "description": "Guarder Gate Hanger Without Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guarder-gate-hanger-without-washer-114-0.jpg"
+   "/img/products/guarder-gate-hanger-without-washer-114-0.jpg"
   ]
  },
  {
@@ -5649,7 +5649,7 @@
   "description": "Guarder Gate Hanger With Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guarder-gate-hanger-with-washer-113-0.jpg"
+   "/img/products/guarder-gate-hanger-with-washer-113-0.jpg"
   ]
  },
  {
@@ -5662,7 +5662,7 @@
   "description": "Stud Gate Hanger Without Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/stud-gate-hanger-without-washer-112-0.jpg"
+   "/img/products/stud-gate-hanger-without-washer-112-0.jpg"
   ]
  },
  {
@@ -5675,7 +5675,7 @@
   "description": "Stud Gate Hanger With Washer: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/stud-gate-hanger-with-washer-111-0.jpg"
+   "/img/products/stud-gate-hanger-with-washer-111-0.jpg"
   ]
  },
  {
@@ -5688,7 +5688,7 @@
   "description": "Stud Type L Gate Hanger With Extra Leg: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/stud-type-l-gate-hanger-with-extra-leg-110-0.jpg"
+   "/img/products/stud-type-l-gate-hanger-with-extra-leg-110-0.jpg"
   ]
  },
  {
@@ -5701,7 +5701,7 @@
   "description": "Stud Type L Gate Hanger: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/stud-type-l-gate-hanger-109-0.jpg"
+   "/img/products/stud-type-l-gate-hanger-109-0.jpg"
   ]
  },
  {
@@ -5714,7 +5714,7 @@
   "description": "Eye Bolts: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/eye-bolts-108-0.jpg"
+   "/img/products/eye-bolts-108-0.jpg"
   ]
  },
  {
@@ -5727,7 +5727,7 @@
   "description": "Extra Spaced Gate Hanger: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/extra-spaced-gate-hanger-107-0.jpg"
+   "/img/products/extra-spaced-gate-hanger-107-0.jpg"
   ]
  },
  {
@@ -5740,7 +5740,7 @@
   "description": "Spaced Gate Hanger: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spaced-gate-hanger-106-0.jpg"
+   "/img/products/spaced-gate-hanger-106-0.jpg"
   ]
  },
  {
@@ -5753,7 +5753,7 @@
   "description": "Flate Gate Hanger: Galvanised Field Gates component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/flate-gate-hanger-105-0.jpg"
+   "/img/products/flate-gate-hanger-105-0.jpg"
   ]
  },
  {
@@ -5783,8 +5783,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/9-bar-field-gates-102-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/9-bar-field-gates-102-1.jpg"
+   "/img/products/9-bar-field-gates-102-0.jpg",
+   "/img/products/9-bar-field-gates-102-1.jpg"
   ]
  },
  {
@@ -5814,8 +5814,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/6-bar-field-gates-101-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/6-bar-field-gates-101-1.jpg"
+   "/img/products/6-bar-field-gates-101-0.jpg",
+   "/img/products/6-bar-field-gates-101-1.jpg"
   ]
  },
  {
@@ -5845,8 +5845,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-field-gates-100-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/5-bar-field-gates-100-1.jpg"
+   "/img/products/5-bar-field-gates-100-0.jpg",
+   "/img/products/5-bar-field-gates-100-1.jpg"
   ]
  },
  {
@@ -5905,7 +5905,7 @@
   "description": "Lamb Jackets: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/lamb-jackets-298-0.jpg"
+   "/img/products/lamb-jackets-298-0.jpg"
   ]
  },
  {
@@ -5918,7 +5918,7 @@
   "description": "Calf Jackets: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/calf-jackets-297-0.jpg"
+   "/img/products/calf-jackets-297-0.jpg"
   ]
  },
  {
@@ -5931,7 +5931,7 @@
   "description": "Manure Srapper: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/manure-srapper-296-0.jpg"
+   "/img/products/manure-srapper-296-0.jpg"
   ]
  },
  {
@@ -5944,7 +5944,7 @@
   "description": "Veterniary Gloves: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/veterniary-gloves-295-0.jpg"
+   "/img/products/veterniary-gloves-295-0.jpg"
   ]
  },
  {
@@ -5957,7 +5957,7 @@
   "description": "Hygiene Gloves: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hygiene-gloves-294-0.jpg"
+   "/img/products/hygiene-gloves-294-0.jpg"
   ]
  },
  {
@@ -5970,7 +5970,7 @@
   "description": "Apron: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/apron-293-0.jpg"
+   "/img/products/apron-293-0.jpg"
   ]
  },
  {
@@ -5983,7 +5983,7 @@
   "description": "Adjustable Clamp: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-clamp-130-0.jpg"
+   "/img/products/adjustable-clamp-130-0.jpg"
   ]
  },
  {
@@ -5996,7 +5996,7 @@
   "description": "Foot Clamp: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/foot-clamp-129-0.jpg"
+   "/img/products/foot-clamp-129-0.jpg"
   ]
  },
  {
@@ -6009,7 +6009,7 @@
   "description": "Hinge Clamp: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hinge-clamp-128-0.jpg"
+   "/img/products/hinge-clamp-128-0.jpg"
   ]
  },
  {
@@ -6022,7 +6022,7 @@
   "description": "Feed Bowls: Pig Penning component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/feed-bowls-127-0.jpg"
+   "/img/products/feed-bowls-127-0.jpg"
   ]
  },
  {
@@ -6055,7 +6055,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/gestation-pen-124-0.jpg"
+   "/img/products/gestation-pen-124-0.jpg"
   ]
  },
  {
@@ -6077,7 +6077,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/farrowing-crate-123-0.jpg"
+   "/img/products/farrowing-crate-123-0.jpg"
   ]
  },
  {
@@ -6090,7 +6090,7 @@
   "description": "Guard For Water Bowl: Stable Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/guard-for-water-bowl-304-0.jpg"
+   "/img/products/guard-for-water-bowl-304-0.jpg"
   ]
  },
  {
@@ -6108,7 +6108,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/feeding-trough-303-0.jpg"
+   "/img/products/feeding-trough-303-0.jpg"
   ]
  },
  {
@@ -6130,7 +6130,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/fence-panels-302-0.jpg"
+   "/img/products/fence-panels-302-0.jpg"
   ]
  },
  {
@@ -6143,7 +6143,7 @@
   "description": "Hay Racks: Stable Equipment component in the Livestock Housing Solutions range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hay-racks-301-0.jpg"
+   "/img/products/hay-racks-301-0.jpg"
   ]
  },
  {
@@ -6173,8 +6173,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/round-hay-feeders-300-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/round-hay-feeders-300-1.jpg"
+   "/img/products/round-hay-feeders-300-0.jpg",
+   "/img/products/round-hay-feeders-300-1.jpg"
   ]
  },
  {
@@ -6196,8 +6196,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hay-feeders-299-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/hay-feeders-299-1.jpg"
+   "/img/products/hay-feeders-299-0.jpg",
+   "/img/products/hay-feeders-299-1.jpg"
   ]
  },
  {
@@ -6251,9 +6251,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-b-320-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-b-320-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-b-320-2.jpg"
+   "/img/products/perforated-plates-type-b-320-0.jpg",
+   "/img/products/perforated-plates-type-b-320-1.jpg",
+   "/img/products/perforated-plates-type-b-320-2.jpg"
   ]
  },
  {
@@ -6335,9 +6335,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-a-319-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-a-319-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-plates-type-a-319-2.jpg"
+   "/img/products/perforated-plates-type-a-319-0.jpg",
+   "/img/products/perforated-plates-type-a-319-1.jpg",
+   "/img/products/perforated-plates-type-a-319-2.jpg"
   ]
  },
  {
@@ -6415,7 +6415,7 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/perforated-strips-318-0.jpg"
+   "/img/products/perforated-strips-318-0.jpg"
   ]
  },
  {
@@ -6457,8 +6457,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-c-317-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-c-317-1.jpg"
+   "/img/products/joist-hangers-type-c-317-0.jpg",
+   "/img/products/joist-hangers-type-c-317-1.jpg"
   ]
  },
  {
@@ -6532,9 +6532,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-b-316-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-b-316-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-b-316-2.jpg"
+   "/img/products/joist-hangers-type-b-316-0.jpg",
+   "/img/products/joist-hangers-type-b-316-1.jpg",
+   "/img/products/joist-hangers-type-b-316-2.jpg"
   ]
  },
  {
@@ -6616,9 +6616,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-a-315-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-a-315-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/joist-hangers-type-a-315-2.jpg"
+   "/img/products/joist-hangers-type-a-315-0.jpg",
+   "/img/products/joist-hangers-type-a-315-1.jpg",
+   "/img/products/joist-hangers-type-a-315-2.jpg"
   ]
  },
  {
@@ -6664,9 +6664,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-314-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-314-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-314-2.jpg"
+   "/img/products/purlin-anchors-314-0.jpg",
+   "/img/products/purlin-anchors-314-1.jpg",
+   "/img/products/purlin-anchors-314-2.jpg"
   ]
  },
  {
@@ -6732,9 +6732,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-313-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-313-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/purlin-anchors-313-2.jpg"
+   "/img/products/purlin-anchors-313-0.jpg",
+   "/img/products/purlin-anchors-313-1.jpg",
+   "/img/products/purlin-anchors-313-2.jpg"
   ]
  },
  {
@@ -6776,9 +6776,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/universal-connectors-312-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/universal-connectors-312-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/universal-connectors-312-2.jpg"
+   "/img/products/universal-connectors-312-0.jpg",
+   "/img/products/universal-connectors-312-1.jpg",
+   "/img/products/universal-connectors-312-2.jpg"
   ]
  },
  {
@@ -6820,9 +6820,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-adjustable-311-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-adjustable-311-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-adjustable-311-2.jpg"
+   "/img/products/angle-connectors-adjustable-311-0.jpg",
+   "/img/products/angle-connectors-adjustable-311-1.jpg",
+   "/img/products/angle-connectors-adjustable-311-2.jpg"
   ]
  },
  {
@@ -6888,9 +6888,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-310-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-310-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-310-2.jpg"
+   "/img/products/angle-connectors-310-0.jpg",
+   "/img/products/angle-connectors-310-1.jpg",
+   "/img/products/angle-connectors-310-2.jpg"
   ]
  },
  {
@@ -6940,9 +6940,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-309-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-309-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-309-2.jpg"
+   "/img/products/angle-connectors-309-0.jpg",
+   "/img/products/angle-connectors-309-1.jpg",
+   "/img/products/angle-connectors-309-2.jpg"
   ]
  },
  {
@@ -7000,10 +7000,10 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-without-rib-308-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-without-rib-308-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-without-rib-308-2.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-without-rib-308-3.jpg"
+   "/img/products/angle-connectors-without-rib-308-0.jpg",
+   "/img/products/angle-connectors-without-rib-308-1.jpg",
+   "/img/products/angle-connectors-without-rib-308-2.jpg",
+   "/img/products/angle-connectors-without-rib-308-3.jpg"
   ]
  },
  {
@@ -7065,9 +7065,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-with-rib-307-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-with-rib-307-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/angle-connectors-with-rib-307-2.jpg"
+   "/img/products/angle-connectors-with-rib-307-0.jpg",
+   "/img/products/angle-connectors-with-rib-307-1.jpg",
+   "/img/products/angle-connectors-with-rib-307-2.jpg"
   ]
  },
  {
@@ -7089,9 +7089,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-blade-post-supports-332-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-blade-post-supports-332-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-blade-post-supports-332-2.jpg"
+   "/img/products/t-blade-post-supports-332-0.jpg",
+   "/img/products/t-blade-post-supports-332-1.jpg",
+   "/img/products/t-blade-post-supports-332-2.jpg"
   ]
  },
  {
@@ -7113,9 +7113,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-331-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-331-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-331-2.jpg"
+   "/img/products/u-type-post-supports-331-0.jpg",
+   "/img/products/u-type-post-supports-331-1.jpg",
+   "/img/products/u-type-post-supports-331-2.jpg"
   ]
  },
  {
@@ -7137,9 +7137,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/boltdown-post-supports-330-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/boltdown-post-supports-330-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/boltdown-post-supports-330-2.jpg"
+   "/img/products/boltdown-post-supports-330-0.jpg",
+   "/img/products/boltdown-post-supports-330-1.jpg",
+   "/img/products/boltdown-post-supports-330-2.jpg"
   ]
  },
  {
@@ -7161,9 +7161,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-type-post-supports-329-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-type-post-supports-329-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/t-type-post-supports-329-2.jpg"
+   "/img/products/t-type-post-supports-329-0.jpg",
+   "/img/products/t-type-post-supports-329-1.jpg",
+   "/img/products/t-type-post-supports-329-2.jpg"
   ]
  },
  {
@@ -7185,9 +7185,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/i-type-post-support-328-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/i-type-post-support-328-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/i-type-post-support-328-2.jpg"
+   "/img/products/i-type-post-support-328-0.jpg",
+   "/img/products/i-type-post-support-328-1.jpg",
+   "/img/products/i-type-post-support-328-2.jpg"
   ]
  },
  {
@@ -7209,9 +7209,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-327-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-327-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-327-2.jpg"
+   "/img/products/l-type-post-supports-327-0.jpg",
+   "/img/products/l-type-post-supports-327-1.jpg",
+   "/img/products/l-type-post-supports-327-2.jpg"
   ]
  },
  {
@@ -7233,9 +7233,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-326-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-326-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-326-2.jpg"
+   "/img/products/y-type-post-supports-326-0.jpg",
+   "/img/products/y-type-post-supports-326-1.jpg",
+   "/img/products/y-type-post-supports-326-2.jpg"
   ]
  },
  {
@@ -7257,9 +7257,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-with-base-plate-325-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-with-base-plate-325-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-with-base-plate-325-2.jpg"
+   "/img/products/u-type-post-supports-with-base-plate-325-0.jpg",
+   "/img/products/u-type-post-supports-with-base-plate-325-1.jpg",
+   "/img/products/u-type-post-supports-with-base-plate-325-2.jpg"
   ]
  },
  {
@@ -7281,9 +7281,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-324-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-324-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/u-type-post-supports-324-2.jpg"
+   "/img/products/u-type-post-supports-324-0.jpg",
+   "/img/products/u-type-post-supports-324-1.jpg",
+   "/img/products/u-type-post-supports-324-2.jpg"
   ]
  },
  {
@@ -7305,9 +7305,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/h-type-post-supports-323-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/h-type-post-supports-323-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/h-type-post-supports-323-2.jpg"
+   "/img/products/h-type-post-supports-323-0.jpg",
+   "/img/products/h-type-post-supports-323-1.jpg",
+   "/img/products/h-type-post-supports-323-2.jpg"
   ]
  },
  {
@@ -7329,9 +7329,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-322-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-322-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/l-type-post-supports-322-2.jpg"
+   "/img/products/l-type-post-supports-322-0.jpg",
+   "/img/products/l-type-post-supports-322-1.jpg",
+   "/img/products/l-type-post-supports-322-2.jpg"
   ]
  },
  {
@@ -7344,9 +7344,9 @@
   "description": "Y Type Post Supports: Post Supports component in the Wood Connectors DIY Hardware Products range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-321-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-321-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/y-type-post-supports-321-2.jpg"
+   "/img/products/y-type-post-supports-321-0.jpg",
+   "/img/products/y-type-post-supports-321-1.jpg",
+   "/img/products/y-type-post-supports-321-2.jpg"
   ]
  },
  {
@@ -7368,8 +7368,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-wedge-grip-359-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-wedge-grip-359-1.jpg"
+   "/img/products/ground-plates-wedge-grip-359-0.jpg",
+   "/img/products/ground-plates-wedge-grip-359-1.jpg"
   ]
  },
  {
@@ -7391,8 +7391,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-bolt-type-358-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-bolt-type-358-1.jpg"
+   "/img/products/ground-plates-bolt-type-358-0.jpg",
+   "/img/products/ground-plates-bolt-type-358-1.jpg"
   ]
  },
  {
@@ -7414,8 +7414,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-wedge-grip-357-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-wedge-grip-357-1.jpg"
+   "/img/products/pole-anchors-wedge-grip-357-0.jpg",
+   "/img/products/pole-anchors-wedge-grip-357-1.jpg"
   ]
  },
  {
@@ -7437,8 +7437,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-bolt-type-356-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-bolt-type-356-1.jpg"
+   "/img/products/pole-anchors-bolt-type-356-0.jpg",
+   "/img/products/pole-anchors-bolt-type-356-1.jpg"
   ]
  },
  {
@@ -7460,8 +7460,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-for-round-post-355-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-for-round-post-355-1.jpg"
+   "/img/products/ground-plates-for-round-post-355-0.jpg",
+   "/img/products/ground-plates-for-round-post-355-1.jpg"
   ]
  },
  {
@@ -7483,8 +7483,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-for-square-post-354-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/ground-plates-for-square-post-354-1.jpg"
+   "/img/products/ground-plates-for-square-post-354-0.jpg",
+   "/img/products/ground-plates-for-square-post-354-1.jpg"
   ]
  },
  {
@@ -7506,8 +7506,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/rotatable-pole-anchors-for-square-post-353-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/rotatable-pole-anchors-for-square-post-353-1.jpg"
+   "/img/products/rotatable-pole-anchors-for-square-post-353-0.jpg",
+   "/img/products/rotatable-pole-anchors-for-square-post-353-1.jpg"
   ]
  },
  {
@@ -7529,9 +7529,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spiral-pole-anchor-for-round-post-352-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spiral-pole-anchor-for-round-post-352-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spiral-pole-anchor-for-round-post-352-2.jpg"
+   "/img/products/spiral-pole-anchor-for-round-post-352-0.jpg",
+   "/img/products/spiral-pole-anchor-for-round-post-352-1.jpg",
+   "/img/products/spiral-pole-anchor-for-round-post-352-2.jpg"
   ]
  },
  {
@@ -7553,8 +7553,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spiral-pole-anchors-for-square-post-350-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/spiral-pole-anchors-for-square-post-350-1.jpg"
+   "/img/products/spiral-pole-anchors-for-square-post-350-0.jpg",
+   "/img/products/spiral-pole-anchors-for-square-post-350-1.jpg"
   ]
  },
  {
@@ -7567,8 +7567,8 @@
   "description": "Pole Anchors For Concrete: Ground Anchors and Ground Plates component in the Wood Connectors DIY Hardware Products range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-concrete-349-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-concrete-349-1.jpg"
+   "/img/products/pole-anchors-for-concrete-349-0.jpg",
+   "/img/products/pole-anchors-for-concrete-349-1.jpg"
   ]
  },
  {
@@ -7590,8 +7590,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-round-post-348-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-round-post-348-1.jpg"
+   "/img/products/pole-anchors-for-round-post-348-0.jpg",
+   "/img/products/pole-anchors-for-round-post-348-1.jpg"
   ]
  },
  {
@@ -7613,8 +7613,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-square-post-347-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/pole-anchors-for-square-post-347-1.jpg"
+   "/img/products/pole-anchors-for-square-post-347-0.jpg",
+   "/img/products/pole-anchors-for-square-post-347-1.jpg"
   ]
  },
  {
@@ -7627,9 +7627,9 @@
   "description": "Post Caps With SS Nail: Post Caps component in the Wood Connectors DIY Hardware Products range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-with-ss-nail-362-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-with-ss-nail-362-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-with-ss-nail-362-2.jpg"
+   "/img/products/post-caps-with-ss-nail-362-0.jpg",
+   "/img/products/post-caps-with-ss-nail-362-1.jpg",
+   "/img/products/post-caps-with-ss-nail-362-2.jpg"
   ]
  },
  {
@@ -7642,9 +7642,9 @@
   "description": "Post Caps Ball: Post Caps component in the Wood Connectors DIY Hardware Products range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-ball-361-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-ball-361-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-ball-361-2.jpg"
+   "/img/products/post-caps-ball-361-0.jpg",
+   "/img/products/post-caps-ball-361-1.jpg",
+   "/img/products/post-caps-ball-361-2.jpg"
   ]
  },
  {
@@ -7657,9 +7657,9 @@
   "description": "Post Caps Pyramid: Post Caps component in the Wood Connectors DIY Hardware Products range, supplied by RUNI Industries from Eindhoven.",
   "specs": [],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-pyramid-360-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-pyramid-360-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-caps-pyramid-360-2.jpg"
+   "/img/products/post-caps-pyramid-360-0.jpg",
+   "/img/products/post-caps-pyramid-360-1.jpg",
+   "/img/products/post-caps-pyramid-360-2.jpg"
   ]
  },
  {
@@ -7681,8 +7681,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/door-frames-368-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/door-frames-368-1.jpg"
+   "/img/products/door-frames-368-0.jpg",
+   "/img/products/door-frames-368-1.jpg"
   ]
  },
  {
@@ -7704,8 +7704,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bicycle-stands-367-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/bicycle-stands-367-1.jpg"
+   "/img/products/bicycle-stands-367-0.jpg",
+   "/img/products/bicycle-stands-367-1.jpg"
   ]
  },
  {
@@ -7727,8 +7727,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/log-holder-big-366-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/log-holder-big-366-1.jpg"
+   "/img/products/log-holder-big-366-0.jpg",
+   "/img/products/log-holder-big-366-1.jpg"
   ]
  },
  {
@@ -7750,8 +7750,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/log-holder-small-365-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/log-holder-small-365-1.jpg"
+   "/img/products/log-holder-small-365-0.jpg",
+   "/img/products/log-holder-small-365-1.jpg"
   ]
  },
  {
@@ -7773,8 +7773,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/earth-sieve-364-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/earth-sieve-364-1.jpg"
+   "/img/products/earth-sieve-364-0.jpg",
+   "/img/products/earth-sieve-364-1.jpg"
   ]
  },
  {
@@ -7796,8 +7796,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/composter-basket-for-riddle-leaves-363-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/composter-basket-for-riddle-leaves-363-1.jpg"
+   "/img/products/composter-basket-for-riddle-leaves-363-0.jpg",
+   "/img/products/composter-basket-for-riddle-leaves-363-1.jpg"
   ]
  },
  {
@@ -7819,8 +7819,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-supports-346-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-supports-346-1.jpg"
+   "/img/products/adjustable-post-supports-346-0.jpg",
+   "/img/products/adjustable-post-supports-346-1.jpg"
   ]
  },
  {
@@ -7842,8 +7842,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-supports-345-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-supports-345-1.jpg"
+   "/img/products/adjustable-post-supports-345-0.jpg",
+   "/img/products/adjustable-post-supports-345-1.jpg"
   ]
  },
  {
@@ -7865,8 +7865,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-support-344-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/post-support-344-1.jpg"
+   "/img/products/post-support-344-0.jpg",
+   "/img/products/post-support-344-1.jpg"
   ]
  },
  {
@@ -7888,8 +7888,8 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-support-with-long-nut-343-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-post-support-with-long-nut-343-1.jpg"
+   "/img/products/adjustable-post-support-with-long-nut-343-0.jpg",
+   "/img/products/adjustable-post-support-with-long-nut-343-1.jpg"
   ]
  },
  {
@@ -7911,9 +7911,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-threaded-post-supports-342-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-threaded-post-supports-342-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-threaded-post-supports-342-2.jpg"
+   "/img/products/adjustable-threaded-post-supports-342-0.jpg",
+   "/img/products/adjustable-threaded-post-supports-342-1.jpg",
+   "/img/products/adjustable-threaded-post-supports-342-2.jpg"
   ]
  },
  {
@@ -7935,9 +7935,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-i-type-post-supports-341-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-i-type-post-supports-341-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-i-type-post-supports-341-2.jpg"
+   "/img/products/adjustable-i-type-post-supports-341-0.jpg",
+   "/img/products/adjustable-i-type-post-supports-341-1.jpg",
+   "/img/products/adjustable-i-type-post-supports-341-2.jpg"
   ]
  },
  {
@@ -7959,9 +7959,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-with-base-plate-340-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-with-base-plate-340-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-with-base-plate-340-2.jpg"
+   "/img/products/adjustable-t-type-post-support-with-base-plate-340-0.jpg",
+   "/img/products/adjustable-t-type-post-support-with-base-plate-340-1.jpg",
+   "/img/products/adjustable-t-type-post-support-with-base-plate-340-2.jpg"
   ]
  },
  {
@@ -7983,9 +7983,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-339-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-339-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-t-type-post-support-339-2.jpg"
+   "/img/products/adjustable-t-type-post-support-339-0.jpg",
+   "/img/products/adjustable-t-type-post-support-339-1.jpg",
+   "/img/products/adjustable-t-type-post-support-339-2.jpg"
   ]
  },
  {
@@ -8007,9 +8007,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-2.jpg"
+   "/img/products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-0.jpg",
+   "/img/products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-1.jpg",
+   "/img/products/adjustable-y-type-post-supports-with-long-nut-base-plate-338-2.jpg"
   ]
  },
  {
@@ -8031,9 +8031,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-support-with-long-nut-337-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-support-with-long-nut-337-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-support-with-long-nut-337-2.jpg"
+   "/img/products/adjustable-y-type-post-support-with-long-nut-337-0.jpg",
+   "/img/products/adjustable-y-type-post-support-with-long-nut-337-1.jpg",
+   "/img/products/adjustable-y-type-post-support-with-long-nut-337-2.jpg"
   ]
  },
  {
@@ -8055,9 +8055,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-l-type-post-supports-336-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-l-type-post-supports-336-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-l-type-post-supports-336-2.jpg"
+   "/img/products/adjustable-l-type-post-supports-336-0.jpg",
+   "/img/products/adjustable-l-type-post-supports-336-1.jpg",
+   "/img/products/adjustable-l-type-post-supports-336-2.jpg"
   ]
  },
  {
@@ -8079,9 +8079,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-335-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-335-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-335-2.jpg"
+   "/img/products/adjustable-y-type-post-supports-335-0.jpg",
+   "/img/products/adjustable-y-type-post-supports-335-1.jpg",
+   "/img/products/adjustable-y-type-post-supports-335-2.jpg"
   ]
  },
  {
@@ -8103,9 +8103,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-334-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-334-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-334-2.jpg"
+   "/img/products/adjustable-y-type-post-supports-334-0.jpg",
+   "/img/products/adjustable-y-type-post-supports-334-1.jpg",
+   "/img/products/adjustable-y-type-post-supports-334-2.jpg"
   ]
  },
  {
@@ -8127,9 +8127,9 @@
    }
   ],
   "cloudinaryImages": [
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-333-0.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-333-1.jpg",
-   "https://media.keaainternational.com/1.keaa-assets/keaa-products/adjustable-y-type-post-supports-333-2.jpg"
+   "/img/products/adjustable-y-type-post-supports-333-0.jpg",
+   "/img/products/adjustable-y-type-post-supports-333-1.jpg",
+   "/img/products/adjustable-y-type-post-supports-333-2.jpg"
   ]
  }
 ]

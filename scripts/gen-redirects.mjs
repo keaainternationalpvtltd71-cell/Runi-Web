@@ -1,6 +1,8 @@
 /* Builds vercel.json: Vercel build settings, www to non-www (the bare "/" needs its own rule: /:path* does
-   not match the root), legacy RUNI URLs (exact and by product id), /public prefix, .php catch-all. */
+   not match the root), legacy RUNI URLs (exact and by product id), /public prefix, .php catch-all, and the
+   /img/ media proxy (scripts/media-folders.mjs) with long browser and CDN caching. */
 import fs from 'node:fs';
+import { MEDIA_ORIGIN, MEDIA_FOLDERS } from './media-folders.mjs';
 const legacy = JSON.parse(fs.readFileSync('scripts/runi-legacy-redirects.json', 'utf8'));
 const products = JSON.parse(fs.readFileSync('src/data/products.json', 'utf8'));
 const cats = JSON.parse(fs.readFileSync('src/data/categories.json', 'utf8'));
@@ -18,11 +20,19 @@ for (const p of products) { const d = newPath(p); redirects.push({ source: `/pro
 redirects.push({ source: '/enquiry/:path*', destination: '/contact?tab=rfq', permanent: true });
 redirects.push({ source: '/public/:path*', destination: '/:path*', permanent: true });
 redirects.push({ source: '/:path*.php', destination: '/', permanent: true });
+// Resized first: /img/t/<options>/<folder>/<file> -> Cloudflare Image Resizing on the media host.
+const rewrites = Object.entries(MEDIA_FOLDERS).flatMap(([folder, prefix]) => [
+  { source: `/img/t/:opts/${folder}/:path*`, destination: `${MEDIA_ORIGIN}/cdn-cgi/image/:opts/${prefix}/:path*` },
+  { source: `/img/${folder}/:path*`, destination: `${MEDIA_ORIGIN}/${prefix}/:path*` },
+]);
 const vercel = {
   framework: 'vite', installCommand: 'npm ci', buildCommand: 'npm run build', outputDirectory: 'dist',
   cleanUrls: true, trailingSlash: false,
   redirects: [{ source: '/', has: [{ type: 'host', value: 'www.runiindustries.eu' }], destination: 'https://runiindustries.eu/', permanent: true }, { source: '/:path*', has: [{ type: 'host', value: 'www.runiindustries.eu' }], destination: 'https://runiindustries.eu/:path*', permanent: true }, ...redirects],
-  headers: [{ source: '/(.*)', headers: [{ key: 'X-Content-Type-Options', value: 'nosniff' }, { key: 'X-Frame-Options', value: 'SAMEORIGIN' }, { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }, { key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains' }] }, { source: '/assets/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] }],
+  rewrites,
+  headers: [{ source: '/(.*)', headers: [{ key: 'X-Content-Type-Options', value: 'nosniff' }, { key: 'X-Frame-Options', value: 'SAMEORIGIN' }, { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }, { key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains' }] }, { source: '/assets/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] },
+    // Media objects never change in place (new key per file), so browsers and Vercel's CDN keep them a year.
+    { source: '/img/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }, { key: 'CDN-Cache-Control', value: 'public, max-age=31536000' }] }],
 };
 fs.writeFileSync('vercel.json', JSON.stringify(vercel, null, 2) + '\n');
-console.log(`vercel.json: ${vercel.redirects.length} redirects`);
+console.log(`vercel.json: ${vercel.redirects.length} redirects, ${vercel.rewrites.length} media rewrites`);

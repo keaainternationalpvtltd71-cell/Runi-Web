@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import Seo from '../lib/Seo.jsx';
-import { titles, metas } from '../data/seoKeywords.js';
+import { titles, metas, SITE } from '../data/seoKeywords.js';
 import { getProduct, getCategory, getSubcategory, productsIn, keywordFor } from '../lib/catalog.js';
 import { img } from '../lib/media.js';
 import { track } from '../lib/analytics.js';
@@ -20,7 +20,7 @@ export default function ProductDetail() {
   const ready = Boolean(p.runiCopyReady);
   return (
     <>
-      <Seo title={titles.product(p.name, kw)} description={metas.product(p.name, p.itemCode)} path={p.path} image={imgs[0]} noindex={!ready} breadcrumbs={crumbs} jsonLd={[{ '@context': 'https://schema.org', '@type': 'Product', name: p.name, sku: p.itemCode, image: imgs, description: p.description, category: `${c.name} / ${kw}`, brand: { '@type': 'Brand', name: 'RUNI Industries' } }]} />
+      <Seo title={titles.product(p.name, kw)} description={metas.product(p.name, p.itemCode)} path={p.path} image={imgs[0]} noindex={!ready} breadcrumbs={crumbs} jsonLd={[{ '@context': 'https://schema.org', '@type': 'Product', name: p.name, sku: p.itemCode, image: imgs.map((u) => (u.startsWith('http') ? u : `${SITE.url}${u}`)), description: p.description, category: `${c.name} / ${kw}`, brand: { '@type': 'Brand', name: 'RUNI Industries' } }]} />
       <Breadcrumbs items={crumbs} />
       <section className="wrap grid gap-10 py-8 lg:grid-cols-[1.1fr_1fr]">
         <div>

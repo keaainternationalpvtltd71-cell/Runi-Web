@@ -1,9 +1,9 @@
 /**
- * RUNI Industries B.V. entity data. Replaces the KEAA company.js in the RUNI fork.
- * Every field marked [VERIFY] was not found on runiindustries.eu or in the KEAA repo and must be
+ * RUNI Industries B.V. entity data. Replaces the shared company.js in the RUNI fork.
+ * Every field marked [VERIFY] was not found on runiindustries.eu or in the source repo and must be
  * confirmed by RUNI before launch. Do not ship a [VERIFY] value.
  * Facts sourced from: runiindustries.eu (About and footer, read 25 Sept 2026) and the
- * salesOffice block of KEAA's company.js (same address and mobile).
+ * salesOffice block of the source company.js (same address and mobile).
  */
 export const company = {
   name: 'RUNI Industries B.V.',
@@ -56,8 +56,6 @@ export const company = {
     { title: 'Support after delivery', body: 'A Netherlands based team available by phone and email after the goods arrive.' },
   ],
 
-  /* Relationship note: KEAA International is the manufacturing partner. Public sites stay
-     separate; mention KEAA only where factually needed (for example a manufacturing partner
-     line on About). No hreflang, no cross canonical, no shared schema between the two. */
-  manufacturingPartner: { name: 'KEAA International Pvt. Ltd.', country: 'India', mentionPublicly: false }, // set true to show the partner line on About
+  /* The manufacturing partner is never named on this site: no partner line, no hreflang, no cross
+     canonical, no shared schema. scripts/check-brand.mjs fails the build if the name ships. */
 };
