@@ -24,7 +24,7 @@ export const allProducts = products.map((p) => {
   const sub = subByName[p.subcategory] || subByName[p.subcategory.replace(' - ', '-')];
   const catSlug = cat ? cat.slug : slugify(p.category);
   const subSlug = sub ? sub.slug : slugify(p.subcategory);
-  const desc = /keaa/i.test(p.description || '') ? `${p.name}: ${sub ? keywordFor(sub) : p.subcategory} component in the ${p.category.replace(' & ', ' and ')} range, supplied by RUNI Industries from Eindhoven.` : (p.description || `${p.name}, supplied by RUNI Industries.`);
+  const desc = p.description || `${p.name}, supplied by RUNI Industries.`;
   return { ...p, description: desc, catSlug, subSlug, path: `/products/${catSlug}/${subSlug}/${p.slug}`, image: p.cloudinaryImages?.[0] || null, keyword: sub ? keywordFor(sub) : p.subcategory };
 });
 const prodByPath = Object.fromEntries(allProducts.map((p) => [p.path, p]));
