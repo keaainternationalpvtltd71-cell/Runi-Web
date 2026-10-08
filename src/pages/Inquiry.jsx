@@ -4,15 +4,16 @@ import Seo from '../lib/Seo.jsx';
 import { company } from '../data/company.js';
 import { brand } from '../data/media.js';
 import { track } from '../lib/analytics.js';
+import { MAX_MESSAGE, buildMeta, formsEnabled, postEnquiry } from '../lib/enquiryApi.js';
+import { inquiryPageRequest } from '../lib/enquiryRequest.js';
+import TurnstileWidget from '../components/TurnstileWidget.jsx';
 
 /**
  * Standalone inquiry page, reached only by its direct URL or the printed QR code. It renders
  * outside the site Layout (no header, footer or links to it from anywhere) and is noindex, so
- * the sitemap script leaves it out.
+ * the sitemap script leaves it out. Submissions go to the enquiry API's /api/contact.
  */
 
-/* Sending is switched off for the UI-first launch; see submit() below and api/inquiry.js. */
-// const ENDPOINT = '/api/inquiry';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const SUCCESS = 'Thank you for contacting RUNI Industries. Our team will get back to you shortly.';
 
@@ -48,6 +49,10 @@ function InquiryForm() {
   const [honeypot, setHoneypot] = useState('');
   const [errors, setErrors] = useState({});
   const [state, setState] = useState('idle');
+  const [token, setToken] = useState(null);       // Turnstile; null = not solved or unavailable
+  const [attempt, setAttempt] = useState(0);      // a token is single-use: new widget after a failed send
+  const [serverError, setServerError] = useState('');
+  const startedAt = useRef(Date.now());
   const sending = useRef(false);
   const successRef = useRef(null);
 
@@ -69,32 +74,30 @@ function InquiryForm() {
       document.getElementById(`inq-${ORDER.find((k) => errs[k])}`)?.focus();
       return;
     }
-    // Sending is switched off for the UI-first launch: no backend is connected yet, so a valid
-    // inquiry gets the phone / WhatsApp / email notice instead. The request is kept below,
-    // commented out; switch it back on together with api/inquiry.js.
-    setState('offline');
-    // sending.current = true;
-    // setState('submitting');
-    // try {
-    //   const r = await fetch(ENDPOINT, {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({ ...f, website: honeypot, sourceUrl: window.location.href }),
-    //   });
-    //   const body = await r.json().catch(() => ({}));
-    //   if (r.status === 422 && body.fields) {
-    //     setErrors(body.fields);
-    //     setState('idle');
-    //     sending.current = false;
-    //     return;
-    //   }
-    //   if (!r.ok || !body.ok) throw new Error(`HTTP ${r.status}`);
-    //   setState('success');
-    //   track('inquiry_submit', { type: f.inquiryType || 'unspecified' });
-    // } catch {
-    //   setState('error');
-    //   sending.current = false;
-    // }
+    // No API address in this build (VITE_API_BASE_URL unset): show the phone / WhatsApp / email notice.
+    if (!formsEnabled) { setState('offline'); return; }
+    sending.current = true;
+    setState('submitting');
+    setServerError('');
+    const { path, body } = inquiryPageRequest(f);
+    const res = await postEnquiry(path, { ...body, meta: buildMeta({ turnstileToken: token, website: honeypot, startedAt: startedAt.current }) });
+    sending.current = false;
+    if (res.ok) {
+      setState('success');
+      track('inquiry_submit', { type: f.inquiryType || 'unspecified' });
+      return;
+    }
+    setToken(null);
+    setAttempt((a) => a + 1);
+    // A 400 names the fields to fix; only the ones this form shows can be highlighted.
+    const shown = res.fields ? Object.fromEntries(Object.entries(res.fields).filter(([k]) => k in EMPTY)) : {};
+    if (Object.keys(shown).length) {
+      setErrors(shown);
+      setState('idle');
+      return;
+    }
+    setServerError(res.status === 429 ? res.error || '' : '');
+    setState('error');
   }
 
   if (state === 'success') {
@@ -135,7 +138,7 @@ function InquiryForm() {
         </Field>
         <div className="sm:col-span-2">
           <Field id="message" label="Message" required error={errors.message}>
-            <textarea id="inq-message" rows={5} value={f.message} onChange={set('message')} maxLength={5000} required placeholder="Products, quantities, delivery location and when you need them." {...invalid('message')} />
+            <textarea id="inq-message" rows={5} value={f.message} onChange={set('message')} maxLength={MAX_MESSAGE} required placeholder="Products, quantities, delivery location and when you need them." {...invalid('message')} />
           </Field>
         </div>
 
@@ -154,12 +157,13 @@ function InquiryForm() {
 
         {state === 'error' && (
           <p role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 sm:col-span-2">
-            We could not send your inquiry. Please try again, or email us at{' '}
+            {serverError ? `${serverError} You can also email us at` : 'We could not send your inquiry. Please try again, or email us at'}{' '}
             <a className="font-semibold underline" href={`mailto:${company.emails[0]}`}>{company.emails[0]}</a>.
           </p>
         )}
 
         <div className="sm:col-span-2">
+          {formsEnabled && <TurnstileWidget key={attempt} action="inquiry" onToken={setToken} className="mb-4 flex justify-center" />}
           <button type="submit" className="btn-primary w-full !rounded-xl !py-3.5 text-base disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0">
             {busy ? <><Loader2 className="h-5 w-5 animate-spin" aria-hidden="true" /> Sending…</> : 'Submit'}
           </button>

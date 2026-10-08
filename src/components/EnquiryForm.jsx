@@ -1,11 +1,12 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { track } from '../lib/analytics.js';
 import { company } from '../data/company.js';
 import { allCategories } from '../lib/catalog.js';
+import { buildMeta, formsEnabled, postEnquiry } from '../lib/enquiryApi.js';
+import { enquiryFormRequest } from '../lib/enquiryRequest.js';
+import TurnstileWidget from './TurnstileWidget.jsx';
 
-/* Sending is switched off for the UI-first launch; see submit() below. */
-// const ENDPOINT = import.meta.env.VITE_ENQUIRY_ENDPOINT;
 const DIAL = '+31';
 const MAX_WORDS = 250;
 
@@ -55,6 +56,10 @@ export default function EnquiryForm({ tab = 'contact', onTabChange, product = ''
     name: '', company: '', email: '', country: 'Netherlands', phone: '', subject: '',
     categories: [], product, quantity: '', deliveryTo: '', destinationPort: '', volume: '', message: '',
   });
+  const [token, setToken] = useState(null);       // Turnstile; null = not solved or unavailable
+  const [attempt, setAttempt] = useState(0);      // a token is single-use: new widget after a failed send
+  const [honeypot, setHoneypot] = useState('');   // filled only by bots
+  const startedAt = useRef(Date.now());
   const set = (k) => (e) => setF((p) => ({ ...p, [k]: e.target.value }));
   const toggleCat = (c) => setF((p) => ({
     ...p, categories: p.categories.includes(c) ? p.categories.filter((x) => x !== c) : [...p.categories, c],
@@ -67,24 +72,25 @@ export default function EnquiryForm({ tab = 'contact', onTabChange, product = ''
     e.preventDefault(); setErr('');
     if (!f.name || !f.email || !f.subject || !f.message) { setErr('Name, email, subject and message are required.'); return; }
     if (overLimit) { setErr(`Please shorten the message to ${MAX_WORDS} words or fewer.`); return; }
-    // Sending is switched off for the UI-first launch: no backend is connected yet, so a valid
-    // enquiry gets the same email / phone message the live site shows today. The request is kept
-    // below, commented out; switch it back on when the forms are connected.
+    // No API address in this build (VITE_API_BASE_URL unset): say how to reach us instead.
+    if (!formsEnabled) {
+      setState('error');
+      setErr(`The enquiry service is not connected yet. Please email ${company.emails[0]} or call ${company.phones[0]}.`);
+      return;
+    }
+    setState('submitting');
+    const { path, body } = enquiryFormRequest(active.kind, f, active.fields, f.phone ? `${DIAL} ${f.phone}` : '');
+    const res = await postEnquiry(path, { ...body, meta: buildMeta({ turnstileToken: token, website: honeypot, startedAt: startedAt.current }) });
+    if (res.ok) {
+      setState('success');
+      track(active.kind === 'contact' ? 'contact_submit' : `${active.kind}_enquiry`, { product });
+      return;
+    }
     setState('error');
-    setErr(`The enquiry service is not connected yet. Please email ${company.emails[0]} or call ${company.phones[0]}.`);
-    // setState('submitting');
-    // try {
-    //   const r = await fetch(ENDPOINT, {
-    //     method: 'POST', headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({ kind: active.kind, ...f, phone: f.phone ? `${DIAL} ${f.phone}` : '', site: 'runi' }),
-    //   });
-    //   if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    //   setState('success');
-    //   track(active.kind === 'contact' ? 'contact_submit' : `${active.kind}_enquiry`, { product });
-    // } catch {
-    //   setState('error');
-    //   setErr(`We could not send your enquiry. Please try again or email ${company.emails[0]}.`);
-    // }
+    setToken(null);
+    setAttempt((a) => a + 1);
+    const fieldMsg = res.fields && Object.values(res.fields)[0];
+    setErr(fieldMsg || res.error || `We could not send your enquiry. Please try again or email ${company.emails[0]}.`);
   }
 
   if (state === 'success') {
@@ -189,9 +195,16 @@ export default function EnquiryForm({ tab = 'contact', onTabChange, product = ''
           </p>
         </div>
 
+        {/* Honeypot: invisible to people, tempting to bots. The server scores a filled value. */}
+        <div className="absolute -left-[10000px] top-auto h-px w-px overflow-hidden" aria-hidden="true">
+          <label htmlFor="website">Website</label>
+          <input id="website" name="website" tabIndex={-1} autoComplete="off" value={honeypot} onChange={(e) => setHoneypot(e.target.value)} />
+        </div>
+
         {err && <p role="alert" className="text-sm text-red-700 sm:col-span-2">{err}</p>}
 
         <div className="sm:col-span-2">
+          {formsEnabled && <TurnstileWidget key={attempt} action={active.id} onToken={setToken} className="mb-4" />}
           <button className="btn-primary" disabled={state === 'submitting'}>
             {state === 'submitting' ? 'Sending…' : 'Send message'}
           </button>
