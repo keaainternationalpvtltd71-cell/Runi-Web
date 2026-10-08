@@ -7,6 +7,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.runiindustries.eu"
+        }
+      ],
+      "destination": "https://runiindustries.eu/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
