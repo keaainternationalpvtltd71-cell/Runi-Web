@@ -4194,6 +4194,40 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {
+      "source": "/img/t/:opts/products/:path*",
+      "destination": "https://media.keaainternational.com/cdn-cgi/image/:opts/1.keaa-assets/keaa-products/:path*"
+    },
+    {
+      "source": "/img/products/:path*",
+      "destination": "https://media.keaainternational.com/1.keaa-assets/keaa-products/:path*"
+    },
+    {
+      "source": "/img/t/:opts/certificates/:path*",
+      "destination": "https://media.keaainternational.com/cdn-cgi/image/:opts/1.keaa-assets/keaa-certificates/:path*"
+    },
+    {
+      "source": "/img/certificates/:path*",
+      "destination": "https://media.keaainternational.com/1.keaa-assets/keaa-certificates/:path*"
+    },
+    {
+      "source": "/img/t/:opts/manufacturing/:path*",
+      "destination": "https://media.keaainternational.com/cdn-cgi/image/:opts/1.keaa-assets/keaa-manufacturing/:path*"
+    },
+    {
+      "source": "/img/manufacturing/:path*",
+      "destination": "https://media.keaainternational.com/1.keaa-assets/keaa-manufacturing/:path*"
+    },
+    {
+      "source": "/img/t/:opts/runi/:path*",
+      "destination": "https://media.keaainternational.com/cdn-cgi/image/:opts/2.runi-assets/runi-web/:path*"
+    },
+    {
+      "source": "/img/runi/:path*",
+      "destination": "https://media.keaainternational.com/2.runi-assets/runi-web/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -4222,6 +4256,19 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "CDN-Cache-Control",
+          "value": "public, max-age=31536000"
         }
       ]
     }
