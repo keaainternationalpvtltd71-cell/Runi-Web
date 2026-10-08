@@ -1,8 +1,8 @@
 # RUNI Industries B.V. website
 
-React 18, Vite 5, Tailwind, framer-motion, react-router 6, prerendered with vite-react-ssg. Deploys to Vercel as a static site. Backend enquiries POST to `VITE_ENQUIRY_ENDPOINT`.
+React 18, Vite 5, Tailwind, framer-motion, react-router 6, prerendered with vite-react-ssg. Deploys to Vercel as a static site. Enquiries POST straight to the enquiry API at `VITE_API_BASE_URL` (`/api/contact`, `/api/rfq`), protected by Cloudflare Turnstile (`VITE_TURNSTILE_SITE_KEY`).
 
-**Form sending is switched off for the UI-first launch.** The requests in `src/components/EnquiryForm.jsx` and `src/pages/Inquiry.jsx` are commented out, and `api/inquiry.js` is a stub that answers 503. Every form still validates, and a valid submission asks the visitor to email or call instead. The original code is kept in place, commented out; switch it back on when the forms are connected to a backend.
+**Forms.** `src/lib/enquiryRequest.js` maps each form to its request (tested: `npm test`), `src/lib/enquiryApi.js` sends it. With `VITE_API_BASE_URL` empty the forms stay offline and ask the visitor to email or call, so a preview without the variable sends nothing. The API accepts this origin on those form paths only (CORS); it tells the brands apart server-side.
 
 ## Run
 ```
@@ -28,7 +28,7 @@ Self canonical on every page, hreflang en + x-default only, Organization + Bread
 
 ## Before launch
 1. Fill `company.js` nulls; set `manufacturingPartner.mentionPublicly` if the About page should name the partner.
-2. Set `VITE_ENQUIRY_ENDPOINT` to the RUNI backend route and `VITE_GA_ID`.
+2. Set `VITE_API_BASE_URL`, `VITE_TURNSTILE_SITE_KEY` and `VITE_GA_ID` in the Vercel project (Production).
 3. Replace `public/og-default.jpg` with a designed card; add RUNI photography (hero poster, warehouse, team) to R2 and reference via `VITE_MEDIA_BASE_URL`.
 4. Dutch translation (`nl`) before flipping `live: true` in `src/i18n/languages.js` (not wired yet; en only ships).
 5. Vercel: add domain `runiindustries.eu` (primary) and `www` (redirects). Search Console domain property, submit `/sitemap.xml`, request indexing on home, 4 categories, 28 subcategories.
